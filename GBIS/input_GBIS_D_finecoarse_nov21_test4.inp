@@ -1,0 +1,201 @@
+% =========================================================================
+% Geodetic Bayesian Inversion Software (GBIS)
+% Software for the Bayesian inversion of geodetic data.
+% Copyright: Marco Bagnardi, 2018
+%
+% Email: gbis.software@gmail.com
+%
+% Reference:
+% Bagnardi M. & Hooper A, (2018).
+% Inversion of surface deformation data for rapid estimates of source
+% parameters and uncertainties: A Bayesian approach. Geochemistry,
+% Geophysics, Geosystems, 19. https://doi.org/10.1029/2018GC007585
+%
+% =========================================================================
+% Last update: 8 August, 2018
+
+% INPUT FILE
+
+%% Reference point and Area of interest
+geo.referencePoint = [115.508007,-8.342826];    % Longitude and Latitude in degrees for arbitrary reference point of local coordinates system [Lon; Lat;]
+geo.boundingBox = [115.4768; -8.3256; 115.5214; -8.3608;];  % Coordinates in degrees of upper left and lower right limits of area of interest [UL_Lon,UL_Lat,LR_Lon,LR_Lat]
+
+%% InSAR data
+% Make sure insarID is unique!
+
+%%
+
+
+insarID = 1;                                                                 % InSAR dataset unique identifier
+
+insar{insarID}.dataPath = './INSAR_input/S1_dsc_nov21_u_dmo.mat';          % Path to data file
+
+insar{insarID}.wavelength = 0.056;                                           % Wavelength in m (e.g., Envisat/ERS/Sentinel: 0.056; CSK/TSX/TDX: 0.031)
+
+insar{insarID}.constOffset = 'y';                                            % Remove constant offset? 'y' or 'n'
+
+insar{insarID}.rampFlag = 'n';                                               % Remove linear ramp? 'y' or 'n'
+
+insar{insarID}.sillExp = 0.00070382;                                          % Variogram sill in m^2
+
+insar{insarID}.range = 5724.4779;                                            % Variogram range in m
+
+insar{insarID}.nugget = 4.2101e-15;                                          % Variogram nugget in m
+
+insar{insarID}.quadtreeThresh = 0.008^2;                                     % Quadtree threshold variance (e.g., 0.01^2 m or 1e-04 m)
+
+insar{insarID}.maskpolyfile = '../agung_maps/slope45_contour.shp';             % path to fine resolution mask shapefile
+
+insar{insarID}.fine_x = 25;                                                  % length of fine resolution cell in East in m
+
+insar{insarID}.fine_y = 25;                                                  % length of fine resolution cell in North in m
+
+insar{insarID}.coarse_x = 200;                                               % length of coarse resolution cell in East in m
+
+insar{insarID}.coarse_y = 200;
+
+
+insarID = 2;                                                                  % InSAR dataset unique identifier
+
+insar{insarID}.dataPath = './INSAR_input/CSK_asc_nov21_u_dmo.mat'; % Path to data file
+
+insar{insarID}.wavelength = 0.031;                                            % Wavelength in m (e.g., Envisat/ERS/Sentinel: 0.056; CSK/TSX/TDX: 0.031)
+
+insar{insarID}.constOffset = 'y';                                             % Remove constant offset? 'y' or 'n'
+
+insar{insarID}.rampFlag = 'n';                                                % Remove linear ramp? 'y' or 'n'
+
+insar{insarID}.sillExp = 2.7956e-05;                                          % Variogram sill in m^2
+
+insar{insarID}.range = 1004.6319;                                              % Variogram range in m
+
+insar{insarID}.nugget = 1.7531e-06;                                           % Variogram nugget in m
+
+insar{insarID}.quadtreeThresh = 0.008^2;                                      % Quadtree threshold variance (e.g., 0.01^2 m or 1e-04 m)
+
+insar{insarID}.maskpolyfile = '../agung_maps/slope45_contour.shp';             % path to fine resolution mask shapefile
+
+insar{insarID}.fine_x = 25;                                                  % length of fine resolution cell in East in m
+
+insar{insarID}.fine_y = 25;                                                  % length of fine resolution cell in North in m
+
+insar{insarID}.coarse_x = 200;                                               % length of coarse resolution cell in East in m
+
+insar{insarID}.coarse_y = 200;                                                  % coarse resolution multiplier in North
+
+insar{insarID}.std = 0.010377;                                              % standard deviation of LOS displacement outside of crater
+
+insarID = 3;                                                                  % InSAR dataset unique identifier
+
+insar{insarID}.dataPath = './INSAR_input/CSK_dsc_nov21_u_dmo.mat'; % Path to data file
+
+insar{insarID}.wavelength = 0.031;                                            % Wavelength in m (e.g., Envisat/ERS/Sentinel: 0.056; CSK/TSX/TDX: 0.031)
+
+insar{insarID}.constOffset = 'y';                                             % Remove constant offset? 'y' or 'n'
+
+insar{insarID}.rampFlag = 'n';                                                % Remove linear ramp? 'y' or 'n'
+
+insar{insarID}.sillExp = 1.6944e-05;                                          % Variogram sill in m^2
+
+insar{insarID}.range = 235.4667;                                              % Variogram range in m
+
+insar{insarID}.nugget = 3.3868e-15;                                           % Variogram nugget in m
+
+insar{insarID}.quadtreeThresh = 0.008^2;                                      % Quadtree threshold variance (e.g., 0.01^2 m or 1e-04 m)
+
+insar{insarID}.maskpolyfile = '../agung_maps/slope45_contour.shp';             % path to fine resolution mask shapefile
+
+insar{insarID}.fine_x = 25;                                                  % length of fine resolution cell in East in m
+
+insar{insarID}.fine_y = 25;                                                  % length of fine resolution cell in North in m
+
+insar{insarID}.coarse_x = 200;                                               % length of coarse resolution cell in East in m
+
+insar{insarID}.coarse_y = 200;                                               % length of coarse resolution cell in North in m
+
+insar{insarID}.std = 0.0068520;                                              % standard deviation of LOS displacement outside of crater
+
+
+
+%%
+
+
+
+%% GPS data
+
+% gps.dataPath = '';   % Path to GPS data file
+% gps.weight = 1/1;    % Weight of GPS data vs. InSAR data in inversion (e.g., 10/1)
+
+%% Model parameters
+
+modelInput.nu = 0.25;     % Poisson's ratio (Shear modulus is set to 1)
+
+% Mogi 'M'
+%                                     X           Y         Z        DV
+modelInput.mogi.start = [             0;          0;      500;      1e4; ];      % starting model
+modelInput.mogi.step =  [            50;         50;       50;     1000; ];      % initial maximium step size
+modelInput.mogi.lower = [         -1000;      -1000;        0;      1e2; ];      % lower bounds on m
+modelInput.mogi.upper = [          1000;       1000;     1500;      1e6; ];      % upper bounds on m
+
+% Mogi2 'N' (for use of two mogi sources with different boundary conditions and initial estimates)
+%                             X       Y      Z      DV
+modelInput.mogi2.start = [-2000;  4000;   1500;     -100000; ];      % starting model
+modelInput.mogi2.step =  [   50;    50;    100;       10000; ];      % initial maximium step size
+modelInput.mogi2.lower = [-8000;  2000;    100;        -1e9; ];      % lower bounds on m
+modelInput.mogi2.upper = [-2000;  7000;   4000;           0; ];      % upper bounds on m
+
+% Rectangular dipping dike (Okada) 'D'
+%                            L       W      Z     Dip    Str      X       Y     Op
+modelInput.dike.start = [  200;    200;   100;      0;   180;      0;      0;  1.0];    % starting model
+modelInput.dike.step =  [   50;     50;    50;      5;    10;     50;     50;  0.1];    % initial maximium step size
+modelInput.dike.lower = [   25;     25;    20;  -89.9;     0;  -1000;  -1000;  0.01];    % lower bounds on m
+modelInput.dike.upper = [ 1000;   1000;  1500;   89.9;   400;   1000;   1000; 10.0];    % upper bounds on m
+
+% Rectangular fault (Okada) 'F'
+%                            L       W      Z     Dip     Str      X       Y      SS       DS
+modelInput.fault.start = [ 5000;   2000;   500;  -75.0;   270;  10000;  -3000;   1.0;     1.0];    % starting model
+modelInput.fault.step =  [   50;     50;   500;      1;     1;    100;    100;  0.01;    0.01];    % initial maximium step size
+modelInput.fault.lower = [  100;    100;   100;  -89.9;   180;   3000;  -7000; -10.0;   -10.0];    % lower bounds on m
+modelInput.fault.upper = [10000;  10000; 10000;   -0.1;   360;  15000;      0;  10.0;    10.0];    % upper bounds on m
+
+% McTigue 'T'
+%                                     X          Y      Z     R     DP/mu
+modelInput.mctigue.start = [           0;         0;   500;  100;     0.2; ];  % starting model
+modelInput.mctigue.step =  [          50;        50;    50;   10;    0.01; ];  % initial maximium step size
+modelInput.mctigue.lower = [       -1000;     -1000;     0;   10;    1e-4; ];  % lower bounds on m
+modelInput.mctigue.upper = [        1000;      1000;  1500; 1000;       1; ];  % upper bounds on m
+
+% Penny-shaped crack 'P'
+%                              X             Y      Z           R         DP/mu
+modelInput.penny.start = [         0;         0;       500;       100;       0.2; ];    % starting model
+modelInput.penny.step =  [        50;        50;        50;        10;      0.01; ];    % initial maximium step size
+modelInput.penny.lower = [     -1000;     -1000;         0;        10;     1e-04; ];    % lower bounds on m
+modelInput.penny.upper = [      1000;      1000;      1500;      1000;         1; ];    % upper bounds on m
+
+% Yang 'Y'
+%                             X       Y      Z      a     a/b  Str    Pln    DP/mu
+modelInput.yang.start = [     0;      0;   500;    100;    0.66; 180;   45;    0.2;];    % starting model
+modelInput.yang.step =  [    50;     50;    50;     10;     .01;  10;    5;   0.01;];    % initial maximium step size
+modelInput.yang.lower = [ -1000;  -1000;     0;     10;    0.05;   0;    0;   1e-4;];    % lower bounds on m
+modelInput.yang.upper = [  1000;   1000;  1500;   1000;    0.99; 400; 89.9;      1;];    % upper bounds on m
+
+% Horizontal rectangular sill (Okada) 'S'
+%                            L     W      Z   Str     X      Y    Op
+modelInput.sill.start = [ 2000; 2000;  1100;  180;-2000;  2000;   -1.0;]; % starting model
+modelInput.sill.step  = [   50;   50;    50;    1;  100;   100;    0.01];  % initial maximium step size
+modelInput.sill.lower = [  300;  300;   100;    1;-20000; -20000;  -50];  % lower bounds on m
+modelInput.sill.upper = [10000;10000; 10000;  359; 20000;  20000; -0.01];  % upper bounds on m
+
+% Hinged double dike (custum made) 'H'
+%                           X_1     Y_1     L_1     W_1     Z_1    Dip_1     Op_1    W_2   Dip_2  Op_2  Strike
+modelInput.hing.start = [   100;    100;   1000;   1000;     10;   -85.0;    0.5;  1000;   -10.0;  0.5;    30]; % starting model
+modelInput.hing.step =  [   100;    100;    100;    100;    100;       1;   0.01;   100;       1; 0.01;     1]; % initial maximium step size
+modelInput.hing.lower = [  -200;   -200;    100;    100;      1;   -89.9;   0.01;   100;   -89.9; 0.01;     1]; % lower bounds on m
+modelInput.hing.upper = [   200;    200;   7000;   7000;    200;    -0.1;   10.0;  9000;   -0.01; 10.0;   359]; % upper bounds on m
+
+% closed pipe (Bonaccorso and Davis) 'C'
+%                              X       Y       a      c1      c2     dP/mu    
+modelInput.cpipe.start = [     0;      0;     50;    300;    600;  +1e-04]; % starting model
+modelInput.cpipe.step =  [    50;     50;     10;     50;     50;   1e-04]; % initial maximium step size
+modelInput.cpipe.lower = [ -2000;  -2000;      5;     50;     50;    1e-6]; % lower bounds on m
+modelInput.cpipe.upper = [  2000;   2000;    200;   1000;   1500;     1e1]; % upper bounds on m
