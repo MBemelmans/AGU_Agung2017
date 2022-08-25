@@ -1,0 +1,1518 @@
+27-Aug-2021 18:57:38 STAMPS           ########################################
+27-Aug-2021 18:57:38 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+27-Aug-2021 18:57:38 STAMPS           #######  Beta version, Jun 2018  #######
+27-Aug-2021 18:57:38 STAMPS           ########################################
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT max_topo_err = 20
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT quick_est_gamma_flag = y
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT select_reest_gamma_flag = y
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT filter_grid_size = 50
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT filter_weighting = P-square
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT gamma_change_convergence = 0.005
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT gamma_max_iterations = 3
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT slc_osf = 1
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT clap_win = 32
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT clap_low_pass_wavelength = 800
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT clap_alpha = 1
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT clap_beta = 0.3
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT select_method = DENSITY
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT density_rand = 20
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT percent_rand = 20
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT gamma_stdev_reject = 0
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT weed_time_win = 730
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT weed_max_noise = Inf
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT weed_standard_dev = 1
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT weed_zero_elevation = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT weed_neighbours = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_method = 3D
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_patch_phase = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT drop_ifg_index = []
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_la_error_flag = y
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_spatial_cost_func_flag = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_prefilter_flag = y
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_grid_size = 200
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_gold_n_win = 32
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_alpha = 8
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_time_win = 730
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_gold_alpha = 0.8
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT unwrap_hold_good_values = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scla_drop_index = []
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scn_wavelength = 100
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scn_time_win = 365
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scn_deramp_ifg = []
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scn_kriging_flag = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT ref_lon = -Inf  Inf
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT ref_lat = -Inf  Inf
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT ref_centre_lonlat = 0  0
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT ref_radius = Inf
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT ref_velocity = 0
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT n_cores = 1
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT plot_dem_posting = 90
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT plot_scatterer_size = 120
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT plot_pixels_scatterer = 3
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT plot_color_scheme = inflation
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT shade_rel_angle = 90  45
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT lonlat_offset = 0  0
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT merge_resample_size = 0
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT merge_standard_dev = Inf
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scla_method = L2
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT scla_deramp = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT lambda = NaN
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT heading = NaN
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT insar_processor = gamma
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT subtr_tropo = n
+27-Aug-2021 18:57:38 PS_PARMS_DEFAULT tropo_method = a_l
+27-Aug-2021 18:57:38 STAMPS           Will process patch subdirectories
+27-Aug-2021 18:57:38 SETPARM          heading = 192.0933
+27-Aug-2021 18:57:38 SETPARM          lambda = 0.055466
+27-Aug-2021 18:57:38 SETPARM          platform = S1A
+27-Aug-2021 19:00:40 STAMPS           Finished
+27-Aug-2021 19:01:10 SETPARM          small_baseline_flag = y
+27-Aug-2021 19:02:05 SETPARM          filter_grid_size = 20
+27-Aug-2021 19:02:48 SETPARM          gamma_max_iterations = 5
+27-Aug-2021 19:03:19 SETPARM          plot_dem_posting = 30
+27-Aug-2021 19:03:57 SETPARM          plot_scatterer_size = 50
+27-Aug-2021 19:04:04 STAMPS           ########################################
+27-Aug-2021 19:04:04 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+27-Aug-2021 19:04:04 STAMPS           #######  Beta version, Jun 2018  #######
+27-Aug-2021 19:04:04 STAMPS           ########################################
+27-Aug-2021 19:04:04 PS_PARMS_DEFAULT sb_scla_drop_index = []
+27-Aug-2021 19:04:04 STAMPS           Will process patch subdirectories
+27-Aug-2021 19:04:04 SETPARM          heading = 192.0933
+27-Aug-2021 19:04:05 SETPARM          lambda = 0.055466
+27-Aug-2021 19:04:05 SETPARM          platform = S1A
+27-Aug-2021 19:06:46 STAMPS           Finished
+27-Aug-2021 19:07:20 STAMPS           ########################################
+27-Aug-2021 19:07:21 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+27-Aug-2021 19:07:22 STAMPS           #######  Beta version, Jun 2018  #######
+27-Aug-2021 19:07:22 STAMPS           ########################################
+27-Aug-2021 19:07:48 STAMPS           Will process patch subdirectories
+27-Aug-2021 19:22:25 STAMPS           ########################################
+27-Aug-2021 19:22:25 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+27-Aug-2021 19:22:25 STAMPS           #######  Beta version, Jun 2018  #######
+27-Aug-2021 19:22:25 STAMPS           ########################################
+27-Aug-2021 19:22:25 STAMPS           Will process patch subdirectories
+28-Aug-2021 11:24:37 STAMPS           ########################################
+28-Aug-2021 11:24:37 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 11:24:37 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 11:24:37 STAMPS           ########################################
+28-Aug-2021 11:24:37 STAMPS           Will process patch subdirectories
+28-Aug-2021 11:25:51 STAMPS           ########################################
+28-Aug-2021 11:25:51 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 11:25:51 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 11:25:51 STAMPS           ########################################
+28-Aug-2021 11:25:51 STAMPS           Will process patch subdirectories
+28-Aug-2021 19:37:05 STAMPS           ########################################
+28-Aug-2021 19:37:05 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 19:37:05 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 19:37:05 STAMPS           ########################################
+28-Aug-2021 19:37:05 STAMPS           Will process patch subdirectories
+28-Aug-2021 19:37:05 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:05 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:05 SETPARM          platform = S1A
+28-Aug-2021 19:37:06 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:06 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:06 SETPARM          platform = S1A
+28-Aug-2021 19:37:09 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:09 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:09 SETPARM          platform = S1A
+28-Aug-2021 19:37:16 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:16 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:16 SETPARM          platform = S1A
+28-Aug-2021 19:37:22 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:22 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:22 SETPARM          platform = S1A
+28-Aug-2021 19:37:25 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:25 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:25 SETPARM          platform = S1A
+28-Aug-2021 19:37:34 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:34 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:34 SETPARM          platform = S1A
+28-Aug-2021 19:37:46 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:46 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:46 SETPARM          platform = S1A
+28-Aug-2021 19:37:57 SETPARM          heading = 192.0933
+28-Aug-2021 19:37:57 SETPARM          lambda = 0.055466
+28-Aug-2021 19:37:57 SETPARM          platform = S1A
+28-Aug-2021 19:38:09 SETPARM          heading = 192.0933
+28-Aug-2021 19:38:09 SETPARM          lambda = 0.055466
+28-Aug-2021 19:38:09 SETPARM          platform = S1A
+28-Aug-2021 19:38:19 SETPARM          heading = 192.0933
+28-Aug-2021 19:38:19 SETPARM          lambda = 0.055466
+28-Aug-2021 19:38:19 SETPARM          platform = S1A
+28-Aug-2021 19:38:32 SETPARM          heading = 192.0933
+28-Aug-2021 19:38:32 SETPARM          lambda = 0.055466
+28-Aug-2021 19:38:32 SETPARM          platform = S1A
+28-Aug-2021 19:38:47 SETPARM          heading = 192.0933
+28-Aug-2021 19:38:47 SETPARM          lambda = 0.055466
+28-Aug-2021 19:38:47 SETPARM          platform = S1A
+28-Aug-2021 19:38:57 SETPARM          heading = 192.0933
+28-Aug-2021 19:38:57 SETPARM          lambda = 0.055466
+28-Aug-2021 19:38:57 SETPARM          platform = S1A
+28-Aug-2021 19:39:07 SETPARM          heading = 192.0933
+28-Aug-2021 19:39:07 SETPARM          lambda = 0.055466
+28-Aug-2021 19:39:07 SETPARM          platform = S1A
+28-Aug-2021 19:39:17 SETPARM          heading = 192.0933
+28-Aug-2021 19:39:17 SETPARM          lambda = 0.055466
+28-Aug-2021 19:39:17 SETPARM          platform = S1A
+28-Aug-2021 19:39:26 SETPARM          heading = 192.0933
+28-Aug-2021 19:39:26 SETPARM          lambda = 0.055466
+28-Aug-2021 19:39:26 SETPARM          platform = S1A
+28-Aug-2021 19:39:37 SETPARM          heading = 192.0933
+28-Aug-2021 19:39:37 SETPARM          lambda = 0.055466
+28-Aug-2021 19:39:37 SETPARM          platform = S1A
+28-Aug-2021 19:39:46 SETPARM          heading = 192.0933
+28-Aug-2021 19:39:46 SETPARM          lambda = 0.055466
+28-Aug-2021 19:39:46 SETPARM          platform = S1A
+28-Aug-2021 19:39:55 SETPARM          heading = 192.0933
+28-Aug-2021 19:39:55 SETPARM          lambda = 0.055466
+28-Aug-2021 19:39:55 SETPARM          platform = S1A
+28-Aug-2021 19:40:04 SETPARM          heading = 192.0933
+28-Aug-2021 19:40:04 SETPARM          lambda = 0.055466
+28-Aug-2021 19:40:04 SETPARM          platform = S1A
+28-Aug-2021 19:40:12 SETPARM          heading = 192.0933
+28-Aug-2021 19:40:12 SETPARM          lambda = 0.055466
+28-Aug-2021 19:40:12 SETPARM          platform = S1A
+28-Aug-2021 19:40:20 SETPARM          heading = 192.0933
+28-Aug-2021 19:40:20 SETPARM          lambda = 0.055466
+28-Aug-2021 19:40:20 SETPARM          platform = S1A
+28-Aug-2021 19:40:27 SETPARM          heading = 192.0933
+28-Aug-2021 19:40:27 SETPARM          lambda = 0.055466
+28-Aug-2021 19:40:27 SETPARM          platform = S1A
+28-Aug-2021 19:40:34 SETPARM          heading = 192.0933
+28-Aug-2021 19:40:34 SETPARM          lambda = 0.055466
+28-Aug-2021 19:40:34 SETPARM          platform = S1A
+28-Aug-2021 19:40:41 STAMPS           Finished
+28-Aug-2021 19:41:03 STAMPS           ########################################
+28-Aug-2021 19:41:03 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 19:41:03 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 19:41:03 STAMPS           ########################################
+28-Aug-2021 19:41:03 STAMPS           Will process patch subdirectories
+28-Aug-2021 19:42:50 STAMPS           ########################################
+28-Aug-2021 19:42:50 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 19:42:50 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 19:42:50 STAMPS           ########################################
+28-Aug-2021 19:42:50 STAMPS           Will process patch subdirectories
+28-Aug-2021 19:45:29 STAMPS           ########################################
+28-Aug-2021 19:45:29 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 19:45:29 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 19:45:29 STAMPS           ########################################
+28-Aug-2021 19:45:30 STAMPS           Will process patch subdirectories
+28-Aug-2021 19:47:10 SETPARM          heading = 192.0933
+28-Aug-2021 19:47:15 SETPARM          lambda = 0.055466
+28-Aug-2021 19:47:20 SETPARM          platform = S1A
+28-Aug-2021 20:01:39 STAMPS           ########################################
+28-Aug-2021 20:01:39 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:01:39 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:01:39 STAMPS           ########################################
+28-Aug-2021 20:01:39 STAMPS           Will process patch subdirectories
+28-Aug-2021 20:01:45 SETPARM          heading = 192.0933
+28-Aug-2021 20:01:45 SETPARM          lambda = 0.055466
+28-Aug-2021 20:01:45 SETPARM          platform = S1A
+28-Aug-2021 20:01:47 SETPARM          heading = 192.0933
+28-Aug-2021 20:01:47 SETPARM          lambda = 0.055466
+28-Aug-2021 20:01:47 SETPARM          platform = S1A
+28-Aug-2021 20:02:22 STAMPS           ########################################
+28-Aug-2021 20:02:22 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:02:22 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:02:22 STAMPS           ########################################
+28-Aug-2021 20:02:22 STAMPS           Will process patch subdirectories
+28-Aug-2021 20:02:31 STAMPS           ########################################
+28-Aug-2021 20:02:31 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:02:31 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:02:31 STAMPS           ########################################
+28-Aug-2021 20:02:31 STAMPS           Will process patch subdirectories
+28-Aug-2021 20:02:31 SETPARM          heading = 192.0933
+28-Aug-2021 20:02:31 SETPARM          lambda = 0.055466
+28-Aug-2021 20:02:31 SETPARM          platform = S1A
+28-Aug-2021 20:02:32 SETPARM          heading = 192.0933
+28-Aug-2021 20:02:32 SETPARM          lambda = 0.055466
+28-Aug-2021 20:02:32 SETPARM          platform = S1A
+28-Aug-2021 20:02:35 SETPARM          heading = 192.0933
+28-Aug-2021 20:02:35 SETPARM          lambda = 0.055466
+28-Aug-2021 20:02:35 SETPARM          platform = S1A
+28-Aug-2021 20:02:42 SETPARM          heading = 192.0933
+28-Aug-2021 20:02:42 SETPARM          lambda = 0.055466
+28-Aug-2021 20:02:42 SETPARM          platform = S1A
+28-Aug-2021 20:02:48 SETPARM          heading = 192.0933
+28-Aug-2021 20:02:48 SETPARM          lambda = 0.055466
+28-Aug-2021 20:02:48 SETPARM          platform = S1A
+28-Aug-2021 20:02:51 SETPARM          heading = 192.0933
+28-Aug-2021 20:02:51 SETPARM          lambda = 0.055466
+28-Aug-2021 20:02:51 SETPARM          platform = S1A
+28-Aug-2021 20:03:01 SETPARM          heading = 192.0933
+28-Aug-2021 20:03:01 SETPARM          lambda = 0.055466
+28-Aug-2021 20:03:01 SETPARM          platform = S1A
+28-Aug-2021 20:03:12 SETPARM          heading = 192.0933
+28-Aug-2021 20:03:12 SETPARM          lambda = 0.055466
+28-Aug-2021 20:03:12 SETPARM          platform = S1A
+28-Aug-2021 20:03:23 SETPARM          heading = 192.0933
+28-Aug-2021 20:03:23 SETPARM          lambda = 0.055466
+28-Aug-2021 20:03:23 SETPARM          platform = S1A
+28-Aug-2021 20:03:35 SETPARM          heading = 192.0933
+28-Aug-2021 20:03:35 SETPARM          lambda = 0.055466
+28-Aug-2021 20:03:35 SETPARM          platform = S1A
+28-Aug-2021 20:03:45 SETPARM          heading = 192.0933
+28-Aug-2021 20:03:45 SETPARM          lambda = 0.055466
+28-Aug-2021 20:03:45 SETPARM          platform = S1A
+28-Aug-2021 20:03:58 SETPARM          heading = 192.0933
+28-Aug-2021 20:03:58 SETPARM          lambda = 0.055466
+28-Aug-2021 20:03:58 SETPARM          platform = S1A
+28-Aug-2021 20:04:13 SETPARM          heading = 192.0933
+28-Aug-2021 20:04:13 SETPARM          lambda = 0.055466
+28-Aug-2021 20:04:13 SETPARM          platform = S1A
+28-Aug-2021 20:04:24 SETPARM          heading = 192.0933
+28-Aug-2021 20:04:24 SETPARM          lambda = 0.055466
+28-Aug-2021 20:04:24 SETPARM          platform = S1A
+28-Aug-2021 20:04:34 SETPARM          heading = 192.0933
+28-Aug-2021 20:04:34 SETPARM          lambda = 0.055466
+28-Aug-2021 20:04:34 SETPARM          platform = S1A
+28-Aug-2021 20:04:44 SETPARM          heading = 192.0933
+28-Aug-2021 20:04:44 SETPARM          lambda = 0.055466
+28-Aug-2021 20:04:44 SETPARM          platform = S1A
+28-Aug-2021 20:04:53 SETPARM          heading = 192.0933
+28-Aug-2021 20:04:53 SETPARM          lambda = 0.055466
+28-Aug-2021 20:04:53 SETPARM          platform = S1A
+28-Aug-2021 20:05:04 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:04 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:04 SETPARM          platform = S1A
+28-Aug-2021 20:05:14 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:14 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:14 SETPARM          platform = S1A
+28-Aug-2021 20:05:23 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:23 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:23 SETPARM          platform = S1A
+28-Aug-2021 20:05:32 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:32 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:32 SETPARM          platform = S1A
+28-Aug-2021 20:05:40 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:40 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:40 SETPARM          platform = S1A
+28-Aug-2021 20:05:48 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:48 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:48 SETPARM          platform = S1A
+28-Aug-2021 20:05:55 SETPARM          heading = 192.0933
+28-Aug-2021 20:05:55 SETPARM          lambda = 0.055466
+28-Aug-2021 20:05:55 SETPARM          platform = S1A
+28-Aug-2021 20:06:01 SETPARM          heading = 192.0933
+28-Aug-2021 20:06:01 SETPARM          lambda = 0.055466
+28-Aug-2021 20:06:01 SETPARM          platform = S1A
+28-Aug-2021 20:06:08 STAMPS           Finished
+28-Aug-2021 20:06:20 STAMPS           ########################################
+28-Aug-2021 20:06:20 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:06:20 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:06:20 STAMPS           ########################################
+28-Aug-2021 20:06:20 STAMPS           Will process patch subdirectories
+28-Aug-2021 20:19:36 STAMPS           ########################################
+28-Aug-2021 20:19:36 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:19:36 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:19:36 STAMPS           ########################################
+28-Aug-2021 20:19:36 STAMPS           Will process patch subdirectories
+28-Aug-2021 20:36:19 STAMPS           ########################################
+28-Aug-2021 20:36:19 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:36:19 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:36:19 STAMPS           ########################################
+28-Aug-2021 20:36:19 STAMPS           Will process patch subdirectories
+28-Aug-2021 20:36:19 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:19 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:19 SETPARM          platform = S1A
+28-Aug-2021 20:36:19 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:19 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:19 SETPARM          platform = S1A
+28-Aug-2021 20:36:22 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:22 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:22 SETPARM          platform = S1A
+28-Aug-2021 20:36:30 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:30 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:30 SETPARM          platform = S1A
+28-Aug-2021 20:36:35 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:35 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:35 SETPARM          platform = S1A
+28-Aug-2021 20:36:39 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:39 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:39 SETPARM          platform = S1A
+28-Aug-2021 20:36:48 SETPARM          heading = 192.0933
+28-Aug-2021 20:36:48 SETPARM          lambda = 0.055466
+28-Aug-2021 20:36:48 SETPARM          platform = S1A
+28-Aug-2021 20:37:00 SETPARM          heading = 192.0933
+28-Aug-2021 20:37:00 SETPARM          lambda = 0.055466
+28-Aug-2021 20:37:00 SETPARM          platform = S1A
+28-Aug-2021 20:37:11 SETPARM          heading = 192.0933
+28-Aug-2021 20:37:11 SETPARM          lambda = 0.055466
+28-Aug-2021 20:37:11 SETPARM          platform = S1A
+28-Aug-2021 20:37:23 SETPARM          heading = 192.0933
+28-Aug-2021 20:37:23 SETPARM          lambda = 0.055466
+28-Aug-2021 20:37:23 SETPARM          platform = S1A
+28-Aug-2021 20:37:33 SETPARM          heading = 192.0933
+28-Aug-2021 20:37:33 SETPARM          lambda = 0.055466
+28-Aug-2021 20:37:33 SETPARM          platform = S1A
+28-Aug-2021 20:37:46 SETPARM          heading = 192.0933
+28-Aug-2021 20:37:46 SETPARM          lambda = 0.055466
+28-Aug-2021 20:37:46 SETPARM          platform = S1A
+28-Aug-2021 20:38:01 SETPARM          heading = 192.0933
+28-Aug-2021 20:38:01 SETPARM          lambda = 0.055466
+28-Aug-2021 20:38:01 SETPARM          platform = S1A
+28-Aug-2021 20:38:11 SETPARM          heading = 192.0933
+28-Aug-2021 20:38:11 SETPARM          lambda = 0.055466
+28-Aug-2021 20:38:11 SETPARM          platform = S1A
+28-Aug-2021 20:38:21 SETPARM          heading = 192.0933
+28-Aug-2021 20:38:21 SETPARM          lambda = 0.055466
+28-Aug-2021 20:38:21 SETPARM          platform = S1A
+28-Aug-2021 20:38:31 SETPARM          heading = 192.0933
+28-Aug-2021 20:38:31 SETPARM          lambda = 0.055466
+28-Aug-2021 20:38:31 SETPARM          platform = S1A
+28-Aug-2021 20:38:41 SETPARM          heading = 192.0933
+28-Aug-2021 20:38:41 SETPARM          lambda = 0.055466
+28-Aug-2021 20:38:41 SETPARM          platform = S1A
+28-Aug-2021 20:38:52 SETPARM          heading = 192.0933
+28-Aug-2021 20:38:52 SETPARM          lambda = 0.055466
+28-Aug-2021 20:38:52 SETPARM          platform = S1A
+28-Aug-2021 20:39:02 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:02 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:02 SETPARM          platform = S1A
+28-Aug-2021 20:39:12 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:12 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:12 SETPARM          platform = S1A
+28-Aug-2021 20:39:21 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:21 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:21 SETPARM          platform = S1A
+28-Aug-2021 20:39:29 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:29 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:29 SETPARM          platform = S1A
+28-Aug-2021 20:39:37 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:37 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:37 SETPARM          platform = S1A
+28-Aug-2021 20:39:44 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:44 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:44 SETPARM          platform = S1A
+28-Aug-2021 20:39:51 SETPARM          heading = 192.0933
+28-Aug-2021 20:39:51 SETPARM          lambda = 0.055466
+28-Aug-2021 20:39:51 SETPARM          platform = S1A
+28-Aug-2021 20:39:58 STAMPS           Finished
+28-Aug-2021 20:40:06 STAMPS           ########################################
+28-Aug-2021 20:40:06 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 20:40:06 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 20:40:06 STAMPS           ########################################
+28-Aug-2021 20:40:06 STAMPS           Will process patch subdirectories
+28-Aug-2021 21:23:34 STAMPS           ########################################
+28-Aug-2021 21:23:34 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 21:23:35 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 21:23:35 STAMPS           ########################################
+28-Aug-2021 21:23:35 STAMPS           Will process patch subdirectories
+28-Aug-2021 22:42:34 STAMPS           ########################################
+28-Aug-2021 22:42:34 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+28-Aug-2021 22:42:34 STAMPS           #######  Beta version, Jun 2018  #######
+28-Aug-2021 22:42:34 STAMPS           ########################################
+28-Aug-2021 22:42:34 STAMPS           Will process patch subdirectories
+29-Aug-2021 09:27:51 STAMPS           ########################################
+29-Aug-2021 09:27:51 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 09:27:51 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 09:27:51 STAMPS           ########################################
+29-Aug-2021 09:27:51 STAMPS           Will process patch subdirectories
+29-Aug-2021 11:21:11 STAMPS           ########################################
+29-Aug-2021 11:21:11 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 11:21:11 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 11:21:11 STAMPS           ########################################
+29-Aug-2021 11:21:11 STAMPS           Will process patch subdirectories
+29-Aug-2021 12:17:06 STAMPS           ########################################
+29-Aug-2021 12:17:06 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 12:17:06 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 12:17:06 STAMPS           ########################################
+29-Aug-2021 12:17:06 STAMPS           Will process patch subdirectories
+29-Aug-2021 15:10:06 STAMPS           ########################################
+29-Aug-2021 15:10:06 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 15:10:06 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 15:10:06 STAMPS           ########################################
+29-Aug-2021 15:10:06 STAMPS           Will process patch subdirectories
+29-Aug-2021 18:47:57 STAMPS           ########################################
+29-Aug-2021 18:47:57 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 18:47:57 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 18:47:57 STAMPS           ########################################
+29-Aug-2021 18:47:57 STAMPS           Will process patch subdirectories
+29-Aug-2021 19:46:54 STAMPS           ########################################
+29-Aug-2021 19:46:54 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 19:46:54 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 19:46:54 STAMPS           ########################################
+29-Aug-2021 19:46:54 STAMPS           Will process patch subdirectories
+29-Aug-2021 23:09:53 STAMPS           ########################################
+29-Aug-2021 23:09:53 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+29-Aug-2021 23:09:53 STAMPS           #######  Beta version, Jun 2018  #######
+29-Aug-2021 23:09:53 STAMPS           ########################################
+29-Aug-2021 23:09:53 STAMPS           Will process patch subdirectories
+30-Aug-2021 08:29:01 STAMPS           ########################################
+30-Aug-2021 08:29:01 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 08:29:01 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 08:29:01 STAMPS           ########################################
+30-Aug-2021 08:29:02 STAMPS           Will process patch subdirectories
+30-Aug-2021 11:13:13 STAMPS           ########################################
+30-Aug-2021 11:13:13 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 11:13:13 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 11:13:13 STAMPS           ########################################
+30-Aug-2021 11:13:13 STAMPS           Will process patch subdirectories
+30-Aug-2021 12:12:32 STAMPS           ########################################
+30-Aug-2021 12:12:32 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 12:12:32 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 12:12:32 STAMPS           ########################################
+30-Aug-2021 12:12:32 STAMPS           Will process patch subdirectories
+30-Aug-2021 15:56:44 STAMPS           ########################################
+30-Aug-2021 15:56:44 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 15:56:44 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 15:56:44 STAMPS           ########################################
+30-Aug-2021 15:56:44 STAMPS           Will process patch subdirectories
+30-Aug-2021 18:45:10 STAMPS           Finished
+30-Aug-2021 19:42:58 STAMPS           ########################################
+30-Aug-2021 19:42:58 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 19:42:58 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 19:42:58 STAMPS           ########################################
+30-Aug-2021 19:42:58 STAMPS           Will process patch subdirectories
+30-Aug-2021 19:45:27 STAMPS           Finished
+30-Aug-2021 19:45:37 STAMPS           ########################################
+30-Aug-2021 19:45:37 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 19:45:37 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 19:45:37 STAMPS           ########################################
+30-Aug-2021 19:45:37 STAMPS           Will process patch subdirectories
+30-Aug-2021 19:45:38 STAMPS           Directory is SMALL_BASELINES
+30-Aug-2021 19:45:38 PS_MERGE_PATCHES Starting
+30-Aug-2021 19:45:38 GETPARM          merge_resample_size=0 
+30-Aug-2021 19:45:38 GETPARM          merge_standard_dev=Inf 
+30-Aug-2021 19:45:40 PS_MERGE_PATCHES Finished
+30-Aug-2021 19:45:40 STAMPS           Finished
+30-Aug-2021 19:45:47 STAMPS           ########################################
+30-Aug-2021 19:45:47 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 19:45:47 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 19:45:47 STAMPS           ########################################
+30-Aug-2021 19:45:47 STAMPS           Will process current directory only
+30-Aug-2021 19:45:47 STAMPS           ########################################
+30-Aug-2021 19:45:47 STAMPS           ################ Step 6 ################
+30-Aug-2021 19:45:47 STAMPS           ########################################
+30-Aug-2021 19:45:47 STAMPS           Directory is SMALL_BASELINES
+30-Aug-2021 19:45:47 PS_UNWRAP        Starting
+30-Aug-2021 19:45:47 GETPARM          small_baseline_flag='y'
+30-Aug-2021 19:45:47 GETPARM          unwrap_patch_phase='n'
+30-Aug-2021 19:45:47 GETPARM          scla_deramp='n'
+30-Aug-2021 19:45:47 GETPARM          subtr_tropo='n'
+30-Aug-2021 19:45:47 GETPARM          tropo_method='a_l'
+30-Aug-2021 19:45:47 GETPARM          drop_ifg_index= 
+30-Aug-2021 19:45:48 GETPARM          unwrap_hold_good_values='n'
+30-Aug-2021 19:45:48 PS_UNWRAP        Code to hold good values skipped
+30-Aug-2021 19:45:48 GETPARM          unwrap_time_win=730 
+30-Aug-2021 19:45:48 GETPARM          unwrap_method='3D'
+30-Aug-2021 19:45:48 GETPARM          unwrap_grid_size=200 
+30-Aug-2021 19:45:48 GETPARM          unwrap_gold_n_win=32 
+30-Aug-2021 19:45:48 GETPARM          unwrap_prefilter_flag='y'
+30-Aug-2021 19:45:48 GETPARM          unwrap_gold_alpha=0.8 
+30-Aug-2021 19:45:48 GETPARM          unwrap_la_error_flag='y'
+30-Aug-2021 19:45:48 GETPARM          unwrap_spatial_cost_func_flag='n'
+30-Aug-2021 19:45:48 GETPARM          max_topo_err=20 
+30-Aug-2021 19:45:48 GETPARM          lambda=0.0554658 
+30-Aug-2021 19:45:48 PS_UNWRAP        n_trial_wraps=0.249040
+30-Aug-2021 19:58:30 PS_UNWRAP        Finished
+30-Aug-2021 19:58:30 SB_INVERT_UW     Starting
+30-Aug-2021 19:58:30 SB_INVERT_UW     Finished
+30-Aug-2021 19:58:30 STAMPS           Finished
+30-Aug-2021 20:01:13 STAMPS           ########################################
+30-Aug-2021 20:01:13 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 20:01:13 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 20:01:13 STAMPS           ########################################
+30-Aug-2021 20:01:13 STAMPS           Will process current directory only
+30-Aug-2021 20:01:14 STAMPS           ########################################
+30-Aug-2021 20:01:14 STAMPS           ################ Step 7 ################
+30-Aug-2021 20:01:14 STAMPS           ########################################
+30-Aug-2021 20:01:14 STAMPS           Directory is SMALL_BASELINES
+30-Aug-2021 20:01:14 PS_CALC_SCLA     Starting
+30-Aug-2021 20:01:14 GETPARM          small_baseline_flag='y'
+30-Aug-2021 20:01:14 GETPARM          drop_ifg_index= 
+30-Aug-2021 20:01:14 GETPARM          scla_method='L2'
+30-Aug-2021 20:01:14 GETPARM          scla_deramp='n'
+30-Aug-2021 20:01:14 GETPARM          subtr_tropo='n'
+30-Aug-2021 20:01:14 GETPARM          tropo_method='a_l'
+30-Aug-2021 20:01:14 GETPARM          sb_scla_drop_index= 
+30-Aug-2021 20:01:14 PS_CALC_SCLA     71 ifgs used in estimation:
+30-Aug-2021 20:01:14 PS_CALC_SCLA        24-Jan-2017 to 05-Feb-2017    12 days     6 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        24-Jan-2017 to 13-Mar-2017    48 days    30 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        05-Feb-2017 to 13-Mar-2017    36 days    24 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        05-Feb-2017 to 25-Mar-2017    48 days   -14 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        13-Mar-2017 to 25-Mar-2017    12 days   -38 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        13-Mar-2017 to 06-Apr-2017    24 days    22 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        13-Mar-2017 to 18-Apr-2017    36 days    38 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        13-Mar-2017 to 30-Apr-2017    48 days    -7 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        25-Mar-2017 to 06-Apr-2017    12 days    60 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        25-Mar-2017 to 18-Apr-2017    24 days    76 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        25-Mar-2017 to 30-Apr-2017    36 days    31 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        25-Mar-2017 to 12-May-2017    48 days    76 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        06-Apr-2017 to 18-Apr-2017    12 days    17 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        06-Apr-2017 to 30-Apr-2017    24 days   -29 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        06-Apr-2017 to 12-May-2017    36 days    17 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        06-Apr-2017 to 24-May-2017    48 days   -95 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        18-Apr-2017 to 30-Apr-2017    12 days   -46 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        18-Apr-2017 to 12-May-2017    24 days     0 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        18-Apr-2017 to 24-May-2017    36 days  -112 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        18-Apr-2017 to 05-Jun-2017    48 days   -18 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        30-Apr-2017 to 12-May-2017    12 days    46 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        30-Apr-2017 to 24-May-2017    24 days   -66 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        30-Apr-2017 to 05-Jun-2017    36 days    28 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        12-May-2017 to 24-May-2017    12 days  -112 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        12-May-2017 to 05-Jun-2017    24 days   -18 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        12-May-2017 to 29-Jun-2017    48 days   -61 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        24-May-2017 to 05-Jun-2017    12 days    94 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        24-May-2017 to 29-Jun-2017    36 days    51 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        24-May-2017 to 11-Jul-2017    48 days    23 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        05-Jun-2017 to 29-Jun-2017    24 days   -43 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        05-Jun-2017 to 11-Jul-2017    36 days   -72 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        05-Jun-2017 to 23-Jul-2017    48 days   -78 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        29-Jun-2017 to 11-Jul-2017    12 days   -28 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        29-Jun-2017 to 23-Jul-2017    24 days   -34 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        29-Jun-2017 to 04-Aug-2017    36 days    22 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        11-Jul-2017 to 23-Jul-2017    12 days    -6 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        11-Jul-2017 to 04-Aug-2017    24 days    50 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        11-Jul-2017 to 16-Aug-2017    36 days    64 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        23-Jul-2017 to 04-Aug-2017    12 days    56 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        23-Jul-2017 to 16-Aug-2017    24 days    70 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        23-Jul-2017 to 28-Aug-2017    36 days    70 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        04-Aug-2017 to 16-Aug-2017    12 days    14 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        04-Aug-2017 to 28-Aug-2017    24 days    13 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        04-Aug-2017 to 09-Sep-2017    36 days   -16 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        04-Aug-2017 to 21-Sep-2017    48 days   -19 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        16-Aug-2017 to 28-Aug-2017    12 days    -1 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        16-Aug-2017 to 09-Sep-2017    24 days   -30 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        16-Aug-2017 to 21-Sep-2017    36 days   -33 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        16-Aug-2017 to 03-Oct-2017    48 days   -53 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        28-Aug-2017 to 09-Sep-2017    12 days   -30 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        28-Aug-2017 to 21-Sep-2017    24 days   -33 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        28-Aug-2017 to 03-Oct-2017    36 days   -53 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        28-Aug-2017 to 15-Oct-2017    48 days   -22 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        09-Sep-2017 to 21-Sep-2017    12 days    -3 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        09-Sep-2017 to 03-Oct-2017    24 days   -23 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        09-Sep-2017 to 15-Oct-2017    36 days     8 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        09-Sep-2017 to 27-Oct-2017    48 days    66 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        21-Sep-2017 to 03-Oct-2017    12 days   -20 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        21-Sep-2017 to 15-Oct-2017    24 days    11 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        21-Sep-2017 to 27-Oct-2017    36 days    69 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        21-Sep-2017 to 08-Nov-2017    48 days   -20 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        03-Oct-2017 to 15-Oct-2017    12 days    31 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        03-Oct-2017 to 27-Oct-2017    24 days    90 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        03-Oct-2017 to 08-Nov-2017    36 days     0 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        03-Oct-2017 to 20-Nov-2017    48 days    38 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        15-Oct-2017 to 27-Oct-2017    12 days    59 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        15-Oct-2017 to 08-Nov-2017    24 days   -31 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        15-Oct-2017 to 20-Nov-2017    36 days     7 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        27-Oct-2017 to 08-Nov-2017    12 days   -90 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        27-Oct-2017 to 20-Nov-2017    24 days   -52 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA        08-Nov-2017 to 20-Nov-2017    12 days    38 m
+30-Aug-2021 20:01:14 PS_CALC_SCLA     Finished
+30-Aug-2021 20:01:14 PS_SMOOTH_SCLA   Starting
+30-Aug-2021 20:01:14 PS_SMOOTH_SCLA   Number of points per ifg: 15992
+30-Aug-2021 20:01:15 PS_SMOOTH_SCLA   Number of arcs per ifg=47954
+30-Aug-2021 20:01:17 PS_SMOOTH_SCLA   Finished
+30-Aug-2021 20:01:17 PS_CALC_SCLA     Starting
+30-Aug-2021 20:01:17 GETPARM          small_baseline_flag='y'
+30-Aug-2021 20:01:17 GETPARM          drop_ifg_index= 
+30-Aug-2021 20:01:17 GETPARM          scla_method='L2'
+30-Aug-2021 20:01:17 GETPARM          scla_deramp='n'
+30-Aug-2021 20:01:17 GETPARM          subtr_tropo='n'
+30-Aug-2021 20:01:17 GETPARM          tropo_method='a_l'
+30-Aug-2021 20:01:17 GETPARM          scla_drop_index= 
+30-Aug-2021 20:01:17 PS_CALC_SCLA     21 ifgs used in estimation:
+30-Aug-2021 20:01:17 PS_CALC_SCLA        24-Jan-2017 to 05-Feb-2017    12 days     6 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        05-Feb-2017 to 13-Mar-2017    36 days    24 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        13-Mar-2017 to 25-Mar-2017    12 days   -38 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        25-Mar-2017 to 06-Apr-2017    12 days    60 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        06-Apr-2017 to 30-Apr-2017    24 days   -29 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        30-Apr-2017 to 12-May-2017    12 days    46 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        12-May-2017 to 24-May-2017    12 days  -112 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        24-May-2017 to 05-Jun-2017    12 days    94 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        05-Jun-2017 to 29-Jun-2017    24 days   -43 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        29-Jun-2017 to 11-Jul-2017    12 days   -28 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        11-Jul-2017 to 23-Jul-2017    12 days    -6 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        23-Jul-2017 to 04-Aug-2017    12 days    56 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        04-Aug-2017 to 16-Aug-2017    12 days    14 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        16-Aug-2017 to 28-Aug-2017    12 days    -1 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        28-Aug-2017 to 09-Sep-2017    12 days   -30 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        09-Sep-2017 to 21-Sep-2017    12 days    -3 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        21-Sep-2017 to 03-Oct-2017    12 days   -20 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        03-Oct-2017 to 15-Oct-2017    12 days    31 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        15-Oct-2017 to 27-Oct-2017    12 days    59 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        27-Oct-2017 to 08-Nov-2017    12 days   -90 m
+30-Aug-2021 20:01:17 PS_CALC_SCLA        08-Nov-2017 to 20-Nov-2017    12 days    38 m
+30-Aug-2021 20:01:18 PS_CALC_SCLA     Finished
+30-Aug-2021 20:01:18 STAMPS           Finished
+30-Aug-2021 20:20:01 STAMPS           ########################################
+30-Aug-2021 20:20:01 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 20:20:01 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 20:20:01 STAMPS           ########################################
+30-Aug-2021 20:20:01 STAMPS           Will process patch subdirectories
+30-Aug-2021 20:20:01 SETPARM          heading = 192.0933
+30-Aug-2021 20:20:01 SETPARM          lambda = 0.055466
+30-Aug-2021 20:20:01 SETPARM          platform = S1A
+30-Aug-2021 20:20:13 SETPARM          heading = 192.0933
+30-Aug-2021 20:20:14 SETPARM          lambda = 0.055466
+30-Aug-2021 20:20:14 SETPARM          platform = S1A
+30-Aug-2021 20:20:24 SETPARM          heading = 192.0933
+30-Aug-2021 20:20:24 SETPARM          lambda = 0.055466
+30-Aug-2021 20:20:24 SETPARM          platform = S1A
+30-Aug-2021 20:20:39 STAMPS           Finished
+30-Aug-2021 20:20:47 STAMPS           ########################################
+30-Aug-2021 20:20:47 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+30-Aug-2021 20:20:47 STAMPS           #######  Beta version, Jun 2018  #######
+30-Aug-2021 20:20:47 STAMPS           ########################################
+30-Aug-2021 20:20:47 STAMPS           Will process patch subdirectories
+30-Aug-2021 22:46:57 STAMPS           Finished
+31-Aug-2021 10:14:26 STAMPS           ########################################
+31-Aug-2021 10:14:26 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 10:14:26 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 10:14:26 STAMPS           ########################################
+31-Aug-2021 10:14:26 STAMPS           Will process patch subdirectories
+31-Aug-2021 11:44:30 STAMPS           Finished
+31-Aug-2021 11:44:39 STAMPS           ########################################
+31-Aug-2021 11:44:39 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 11:44:39 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 11:44:39 STAMPS           ########################################
+31-Aug-2021 11:44:39 STAMPS           Will process patch subdirectories
+31-Aug-2021 11:45:07 STAMPS           Finished
+31-Aug-2021 11:45:18 STAMPS           ########################################
+31-Aug-2021 11:45:18 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 11:45:18 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 11:45:18 STAMPS           ########################################
+31-Aug-2021 11:45:18 STAMPS           Will process patch subdirectories
+31-Aug-2021 11:45:18 STAMPS           Directory is SMALL_BASELINES
+31-Aug-2021 11:45:18 PS_MERGE_PATCHES Starting
+31-Aug-2021 11:45:18 GETPARM          merge_resample_size=0 
+31-Aug-2021 11:45:18 GETPARM          merge_standard_dev=Inf 
+31-Aug-2021 11:45:19 PS_MERGE_PATCHES Finished
+31-Aug-2021 11:45:19 STAMPS           Finished
+31-Aug-2021 11:45:27 STAMPS           ########################################
+31-Aug-2021 11:45:27 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 11:45:27 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 11:45:27 STAMPS           ########################################
+31-Aug-2021 11:45:27 STAMPS           Will process current directory only
+31-Aug-2021 11:45:27 STAMPS           ########################################
+31-Aug-2021 11:45:27 STAMPS           ################ Step 6 ################
+31-Aug-2021 11:45:27 STAMPS           ########################################
+31-Aug-2021 11:45:27 STAMPS           Directory is SMALL_BASELINES
+31-Aug-2021 11:45:27 PS_UNWRAP        Starting
+31-Aug-2021 11:45:27 GETPARM          small_baseline_flag='y'
+31-Aug-2021 11:45:27 GETPARM          unwrap_patch_phase='n'
+31-Aug-2021 11:45:27 GETPARM          scla_deramp='n'
+31-Aug-2021 11:45:27 GETPARM          subtr_tropo='n'
+31-Aug-2021 11:45:27 GETPARM          tropo_method='a_l'
+31-Aug-2021 11:45:27 GETPARM          drop_ifg_index= 
+31-Aug-2021 11:45:27 GETPARM          unwrap_hold_good_values='n'
+31-Aug-2021 11:45:27 GETPARM          unwrap_time_win=730 
+31-Aug-2021 11:45:27 GETPARM          unwrap_method='3D'
+31-Aug-2021 11:45:27 GETPARM          unwrap_grid_size=200 
+31-Aug-2021 11:45:27 GETPARM          unwrap_gold_n_win=32 
+31-Aug-2021 11:45:27 GETPARM          unwrap_prefilter_flag='y'
+31-Aug-2021 11:45:27 GETPARM          unwrap_gold_alpha=0.8 
+31-Aug-2021 11:45:27 GETPARM          unwrap_la_error_flag='y'
+31-Aug-2021 11:45:27 GETPARM          unwrap_spatial_cost_func_flag='n'
+31-Aug-2021 11:45:27 GETPARM          max_topo_err=20 
+31-Aug-2021 11:45:27 GETPARM          lambda=0.0554658 
+31-Aug-2021 11:45:27 PS_UNWRAP        n_trial_wraps=0.266335
+31-Aug-2021 12:12:19 STAMPS           ########################################
+31-Aug-2021 12:12:19 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 12:12:19 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 12:12:19 STAMPS           ########################################
+31-Aug-2021 12:12:19 STAMPS           Will process patch subdirectories
+31-Aug-2021 12:12:19 SETPARM          heading = 192.0933
+31-Aug-2021 12:12:19 SETPARM          lambda = 0.055466
+31-Aug-2021 12:12:19 SETPARM          platform = S1A
+31-Aug-2021 12:12:31 SETPARM          heading = 192.0933
+31-Aug-2021 12:12:31 SETPARM          lambda = 0.055466
+31-Aug-2021 12:12:31 SETPARM          platform = S1A
+31-Aug-2021 12:12:43 SETPARM          heading = 192.0933
+31-Aug-2021 12:12:43 SETPARM          lambda = 0.055466
+31-Aug-2021 12:12:43 SETPARM          platform = S1A
+31-Aug-2021 12:12:56 STAMPS           Finished
+31-Aug-2021 12:17:50 SETPARM          filter_weighting = SNR
+31-Aug-2021 12:29:09 SETPARM          unwrap_grid_size = 10
+31-Aug-2021 12:30:14 SETPARM          plot_scatterer_size = 20
+31-Aug-2021 12:30:49 SETPARM          plot_dem_posting = 15
+31-Aug-2021 12:31:43 SETPARM          filter_grid_size = 10
+31-Aug-2021 12:32:14 SETPARM          density_rand = 2
+31-Aug-2021 12:32:36 STAMPS           ########################################
+31-Aug-2021 12:32:36 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 12:32:36 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 12:32:36 STAMPS           ########################################
+31-Aug-2021 12:32:36 STAMPS           Will process patch subdirectories
+31-Aug-2021 12:32:36 SETPARM          heading = 192.0933
+31-Aug-2021 12:32:36 SETPARM          lambda = 0.055466
+31-Aug-2021 12:32:36 SETPARM          platform = S1A
+31-Aug-2021 12:32:37 SETPARM          heading = 192.0933
+31-Aug-2021 12:32:37 SETPARM          lambda = 0.055466
+31-Aug-2021 12:32:37 SETPARM          platform = S1A
+31-Aug-2021 12:32:41 SETPARM          heading = 192.0933
+31-Aug-2021 12:32:41 SETPARM          lambda = 0.055466
+31-Aug-2021 12:32:41 SETPARM          platform = S1A
+31-Aug-2021 12:32:49 SETPARM          heading = 192.0933
+31-Aug-2021 12:32:49 SETPARM          lambda = 0.055466
+31-Aug-2021 12:32:49 SETPARM          platform = S1A
+31-Aug-2021 12:32:56 SETPARM          heading = 192.0933
+31-Aug-2021 12:32:56 SETPARM          lambda = 0.055466
+31-Aug-2021 12:32:56 SETPARM          platform = S1A
+31-Aug-2021 12:33:00 SETPARM          heading = 192.0933
+31-Aug-2021 12:33:00 SETPARM          lambda = 0.055466
+31-Aug-2021 12:33:00 SETPARM          platform = S1A
+31-Aug-2021 12:33:10 SETPARM          heading = 192.0933
+31-Aug-2021 12:33:10 SETPARM          lambda = 0.055466
+31-Aug-2021 12:33:10 SETPARM          platform = S1A
+31-Aug-2021 12:33:23 SETPARM          heading = 192.0933
+31-Aug-2021 12:33:23 SETPARM          lambda = 0.055466
+31-Aug-2021 12:33:23 SETPARM          platform = S1A
+31-Aug-2021 12:33:34 SETPARM          heading = 192.0933
+31-Aug-2021 12:33:34 SETPARM          lambda = 0.055466
+31-Aug-2021 12:33:34 SETPARM          platform = S1A
+31-Aug-2021 12:33:47 SETPARM          heading = 192.0933
+31-Aug-2021 12:33:47 SETPARM          lambda = 0.055466
+31-Aug-2021 12:33:47 SETPARM          platform = S1A
+31-Aug-2021 12:33:57 SETPARM          heading = 192.0933
+31-Aug-2021 12:33:57 SETPARM          lambda = 0.055466
+31-Aug-2021 12:33:57 SETPARM          platform = S1A
+31-Aug-2021 12:34:11 SETPARM          heading = 192.0933
+31-Aug-2021 12:34:11 SETPARM          lambda = 0.055466
+31-Aug-2021 12:34:11 SETPARM          platform = S1A
+31-Aug-2021 12:34:26 SETPARM          heading = 192.0933
+31-Aug-2021 12:34:26 SETPARM          lambda = 0.055466
+31-Aug-2021 12:34:26 SETPARM          platform = S1A
+31-Aug-2021 12:34:37 SETPARM          heading = 192.0933
+31-Aug-2021 12:34:37 SETPARM          lambda = 0.055466
+31-Aug-2021 12:34:37 SETPARM          platform = S1A
+31-Aug-2021 12:34:47 SETPARM          heading = 192.0933
+31-Aug-2021 12:34:47 SETPARM          lambda = 0.055466
+31-Aug-2021 12:34:47 SETPARM          platform = S1A
+31-Aug-2021 12:34:58 SETPARM          heading = 192.0933
+31-Aug-2021 12:34:58 SETPARM          lambda = 0.055466
+31-Aug-2021 12:34:58 SETPARM          platform = S1A
+31-Aug-2021 12:35:08 SETPARM          heading = 192.0933
+31-Aug-2021 12:35:08 SETPARM          lambda = 0.055466
+31-Aug-2021 12:35:08 SETPARM          platform = S1A
+31-Aug-2021 12:35:19 SETPARM          heading = 192.0933
+31-Aug-2021 12:35:19 SETPARM          lambda = 0.055466
+31-Aug-2021 12:35:19 SETPARM          platform = S1A
+31-Aug-2021 12:35:29 SETPARM          heading = 192.0933
+31-Aug-2021 12:35:29 SETPARM          lambda = 0.055466
+31-Aug-2021 12:35:29 SETPARM          platform = S1A
+31-Aug-2021 12:35:39 SETPARM          heading = 192.0933
+31-Aug-2021 12:35:39 SETPARM          lambda = 0.055466
+31-Aug-2021 12:35:39 SETPARM          platform = S1A
+31-Aug-2021 12:35:48 SETPARM          heading = 192.0933
+31-Aug-2021 12:35:48 SETPARM          lambda = 0.055466
+31-Aug-2021 12:35:48 SETPARM          platform = S1A
+31-Aug-2021 12:35:57 SETPARM          heading = 192.0933
+31-Aug-2021 12:35:57 SETPARM          lambda = 0.055466
+31-Aug-2021 12:35:57 SETPARM          platform = S1A
+31-Aug-2021 12:36:05 SETPARM          heading = 192.0933
+31-Aug-2021 12:36:05 SETPARM          lambda = 0.055466
+31-Aug-2021 12:36:05 SETPARM          platform = S1A
+31-Aug-2021 12:36:12 SETPARM          heading = 192.0933
+31-Aug-2021 12:36:12 SETPARM          lambda = 0.055466
+31-Aug-2021 12:36:12 SETPARM          platform = S1A
+31-Aug-2021 12:36:19 SETPARM          heading = 192.0933
+31-Aug-2021 12:36:19 SETPARM          lambda = 0.055466
+31-Aug-2021 12:36:19 SETPARM          platform = S1A
+31-Aug-2021 12:36:26 STAMPS           Finished
+31-Aug-2021 12:36:31 STAMPS           ########################################
+31-Aug-2021 12:36:31 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 12:36:31 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 12:36:31 STAMPS           ########################################
+31-Aug-2021 12:36:31 STAMPS           Will process patch subdirectories
+31-Aug-2021 18:28:57 STAMPS           ########################################
+31-Aug-2021 18:28:57 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+31-Aug-2021 18:28:57 STAMPS           #######  Beta version, Jun 2018  #######
+31-Aug-2021 18:28:57 STAMPS           ########################################
+31-Aug-2021 18:28:57 STAMPS           Will process patch subdirectories
+01-Sep-2021 09:30:23 STAMPS           ########################################
+01-Sep-2021 09:30:23 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 09:30:23 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 09:30:23 STAMPS           ########################################
+01-Sep-2021 09:30:24 STAMPS           Will process patch subdirectories
+01-Sep-2021 11:33:16 STAMPS           ########################################
+01-Sep-2021 11:33:16 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 11:33:16 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 11:33:16 STAMPS           ########################################
+01-Sep-2021 11:33:16 STAMPS           Will process patch subdirectories
+01-Sep-2021 18:19:24 STAMPS           ########################################
+01-Sep-2021 18:19:24 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 18:19:24 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 18:19:24 STAMPS           ########################################
+01-Sep-2021 18:19:24 STAMPS           Will process patch subdirectories
+01-Sep-2021 18:25:18 STAMPS           ########################################
+01-Sep-2021 18:25:18 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 18:25:18 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 18:25:18 STAMPS           ########################################
+01-Sep-2021 18:25:18 STAMPS           Will process patch subdirectories
+01-Sep-2021 18:28:29 STAMPS           ########################################
+01-Sep-2021 18:28:29 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 18:28:29 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 18:28:29 STAMPS           ########################################
+01-Sep-2021 18:28:29 STAMPS           Will process patch subdirectories
+01-Sep-2021 20:16:15 STAMPS           ########################################
+01-Sep-2021 20:16:15 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 20:16:15 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 20:16:15 STAMPS           ########################################
+01-Sep-2021 20:16:16 STAMPS           Will process patch subdirectories
+01-Sep-2021 22:47:22 STAMPS           ########################################
+01-Sep-2021 22:47:22 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Sep-2021 22:47:22 STAMPS           #######  Beta version, Jun 2018  #######
+01-Sep-2021 22:47:22 STAMPS           ########################################
+01-Sep-2021 22:47:23 STAMPS           Will process patch subdirectories
+02-Sep-2021 00:46:09 STAMPS           ########################################
+02-Sep-2021 00:46:09 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 00:46:09 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 00:46:09 STAMPS           ########################################
+02-Sep-2021 00:46:09 STAMPS           Will process patch subdirectories
+02-Sep-2021 08:44:59 STAMPS           Finished
+02-Sep-2021 09:02:29 STAMPS           ########################################
+02-Sep-2021 09:02:29 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 09:02:29 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 09:02:29 STAMPS           ########################################
+02-Sep-2021 09:02:29 STAMPS           Will process patch subdirectories
+02-Sep-2021 09:12:46 STAMPS           Finished
+02-Sep-2021 09:18:35 STAMPS           ########################################
+02-Sep-2021 09:18:36 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 09:18:36 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 09:18:36 STAMPS           ########################################
+02-Sep-2021 09:18:36 STAMPS           Will process patch subdirectories
+02-Sep-2021 09:31:41 STAMPS           ########################################
+02-Sep-2021 09:31:53 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 09:31:54 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 09:31:55 STAMPS           ########################################
+02-Sep-2021 09:46:30 STAMPS           Will process patch subdirectories
+02-Sep-2021 09:48:33 SETPARM          heading = 192.0933
+02-Sep-2021 09:48:45 SETPARM          lambda = 0.055466
+02-Sep-2021 09:49:03 SETPARM          platform = S1A
+02-Sep-2021 10:11:46 STAMPS           ########################################
+02-Sep-2021 10:11:46 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 10:11:46 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 10:11:46 STAMPS           ########################################
+02-Sep-2021 10:11:46 STAMPS           Will process patch subdirectories
+02-Sep-2021 10:11:46 SETPARM          heading = 192.0933
+02-Sep-2021 10:11:46 SETPARM          lambda = 0.055466
+02-Sep-2021 10:11:46 SETPARM          platform = S1A
+02-Sep-2021 10:33:43 STAMPS           Finished
+02-Sep-2021 10:33:54 STAMPS           ########################################
+02-Sep-2021 10:33:54 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 10:33:54 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 10:33:54 STAMPS           ########################################
+02-Sep-2021 10:33:54 STAMPS           Will process patch subdirectories
+02-Sep-2021 10:45:52 STAMPS           ########################################
+02-Sep-2021 10:45:52 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 10:45:52 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 10:45:52 STAMPS           ########################################
+02-Sep-2021 10:45:52 STAMPS           Will process patch subdirectories
+02-Sep-2021 11:35:17 STAMPS           ########################################
+02-Sep-2021 11:35:17 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+02-Sep-2021 11:35:17 STAMPS           #######  Beta version, Jun 2018  #######
+02-Sep-2021 11:35:17 STAMPS           ########################################
+02-Sep-2021 11:35:17 STAMPS           Will process patch subdirectories
+03-Sep-2021 10:18:21 STAMPS           ########################################
+03-Sep-2021 10:18:21 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+03-Sep-2021 10:18:21 STAMPS           #######  Beta version, Jun 2018  #######
+03-Sep-2021 10:18:21 STAMPS           ########################################
+03-Sep-2021 10:18:21 STAMPS           Will process patch subdirectories
+03-Sep-2021 10:18:21 SETPARM          heading = 192.0933
+03-Sep-2021 10:18:21 SETPARM          lambda = 0.055466
+03-Sep-2021 10:18:21 SETPARM          platform = S1A
+03-Sep-2021 10:18:59 STAMPS           Finished
+03-Sep-2021 10:35:02 STAMPS           ########################################
+03-Sep-2021 10:35:02 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+03-Sep-2021 10:35:02 STAMPS           #######  Beta version, Jun 2018  #######
+03-Sep-2021 10:35:02 STAMPS           ########################################
+03-Sep-2021 10:35:02 STAMPS           Will process patch subdirectories
+03-Sep-2021 10:35:02 SETPARM          heading = 192.0933
+03-Sep-2021 10:35:02 SETPARM          lambda = 0.055466
+03-Sep-2021 10:35:02 SETPARM          platform = S1A
+03-Sep-2021 10:37:41 STAMPS           Finished
+03-Sep-2021 11:14:28 STAMPS           ########################################
+03-Sep-2021 11:14:28 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+03-Sep-2021 11:14:28 STAMPS           #######  Beta version, Jun 2018  #######
+03-Sep-2021 11:14:28 STAMPS           ########################################
+03-Sep-2021 11:14:28 STAMPS           Will process patch subdirectories
+03-Sep-2021 11:14:28 SETPARM          heading = 192.0933
+03-Sep-2021 11:14:28 SETPARM          lambda = 0.055466
+03-Sep-2021 11:14:28 SETPARM          platform = S1A
+03-Sep-2021 11:17:09 STAMPS           Finished
+03-Sep-2021 17:19:05 STAMPS           ########################################
+03-Sep-2021 17:19:05 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+03-Sep-2021 17:19:05 STAMPS           #######  Beta version, Jun 2018  #######
+03-Sep-2021 17:19:05 STAMPS           ########################################
+03-Sep-2021 17:19:05 STAMPS           Will process patch subdirectories
+03-Sep-2021 17:19:05 SETPARM          heading = 192.0933
+03-Sep-2021 17:19:05 SETPARM          lambda = 0.055466
+03-Sep-2021 17:19:05 SETPARM          platform = S1A
+03-Sep-2021 17:20:03 STAMPS           Finished
+03-Sep-2021 17:22:52 STAMPS           ########################################
+03-Sep-2021 17:22:52 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+03-Sep-2021 17:22:52 STAMPS           #######  Beta version, Jun 2018  #######
+03-Sep-2021 17:22:52 STAMPS           ########################################
+03-Sep-2021 17:22:52 STAMPS           Will process patch subdirectories
+03-Sep-2021 21:09:35 STAMPS           ########################################
+03-Sep-2021 21:09:35 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+03-Sep-2021 21:09:35 STAMPS           #######  Beta version, Jun 2018  #######
+03-Sep-2021 21:09:35 STAMPS           ########################################
+03-Sep-2021 21:09:36 STAMPS           Will process patch subdirectories
+04-Sep-2021 16:26:24 STAMPS           ########################################
+04-Sep-2021 16:26:24 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 16:26:24 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 16:26:24 STAMPS           ########################################
+04-Sep-2021 16:26:24 STAMPS           Will process patch subdirectories
+04-Sep-2021 16:26:27 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 16:26:27 PS_MERGE_PATCHES Starting
+04-Sep-2021 16:26:27 GETPARM          merge_resample_size=0 
+04-Sep-2021 16:26:27 GETPARM          merge_standard_dev=Inf 
+04-Sep-2021 16:26:37 PS_MERGE_PATCHES Finished
+04-Sep-2021 16:26:39 STAMPS           Finished
+04-Sep-2021 16:26:45 STAMPS           ########################################
+04-Sep-2021 16:26:45 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 16:26:45 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 16:26:45 STAMPS           ########################################
+04-Sep-2021 16:26:45 STAMPS           Will process current directory only
+04-Sep-2021 16:26:45 STAMPS           ########################################
+04-Sep-2021 16:26:45 STAMPS           ################ Step 6 ################
+04-Sep-2021 16:26:45 STAMPS           ########################################
+04-Sep-2021 16:26:45 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 16:26:45 PS_UNWRAP        Starting
+04-Sep-2021 16:26:45 GETPARM          small_baseline_flag='y'
+04-Sep-2021 16:26:45 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 16:26:45 GETPARM          scla_deramp='n'
+04-Sep-2021 16:26:45 GETPARM          subtr_tropo='n'
+04-Sep-2021 16:26:45 GETPARM          tropo_method='a_l'
+04-Sep-2021 16:26:45 GETPARM          drop_ifg_index= 
+04-Sep-2021 16:26:46 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 16:26:46 GETPARM          unwrap_time_win=730 
+04-Sep-2021 16:26:46 GETPARM          unwrap_method='3D'
+04-Sep-2021 16:26:46 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 16:26:46 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 16:26:46 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 16:26:46 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 16:26:46 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 16:26:46 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 16:26:46 GETPARM          max_topo_err=20 
+04-Sep-2021 16:26:46 GETPARM          lambda=0.0554658 
+04-Sep-2021 16:26:46 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 19:46:45 STAMPS           ########################################
+04-Sep-2021 19:46:45 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 19:46:45 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 19:46:45 STAMPS           ########################################
+04-Sep-2021 19:46:46 STAMPS           Will process current directory only
+04-Sep-2021 19:46:46 STAMPS           ########################################
+04-Sep-2021 19:46:46 STAMPS           ################ Step 6 ################
+04-Sep-2021 19:46:46 STAMPS           ########################################
+04-Sep-2021 19:46:46 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 19:46:46 PS_UNWRAP        Starting
+04-Sep-2021 19:46:46 GETPARM          small_baseline_flag='y'
+04-Sep-2021 19:46:46 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 19:46:46 GETPARM          scla_deramp='n'
+04-Sep-2021 19:46:46 GETPARM          subtr_tropo='n'
+04-Sep-2021 19:46:46 GETPARM          tropo_method='a_l'
+04-Sep-2021 19:46:47 GETPARM          drop_ifg_index= 
+04-Sep-2021 19:46:47 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 19:46:49 GETPARM          unwrap_time_win=730 
+04-Sep-2021 19:46:49 GETPARM          unwrap_method='3D'
+04-Sep-2021 19:46:50 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 19:46:50 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 19:46:50 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 19:46:50 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 19:46:50 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 19:46:50 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 19:46:50 GETPARM          max_topo_err=20 
+04-Sep-2021 19:46:50 GETPARM          lambda=0.0554658 
+04-Sep-2021 19:46:50 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 21:07:15 SETPARM          unwrap_method = 3D-QUICK
+04-Sep-2021 21:07:18 STAMPS           ########################################
+04-Sep-2021 21:07:18 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 21:07:18 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 21:07:18 STAMPS           ########################################
+04-Sep-2021 21:07:18 STAMPS           Will process current directory only
+04-Sep-2021 21:07:19 STAMPS           ########################################
+04-Sep-2021 21:07:19 STAMPS           ################ Step 6 ################
+04-Sep-2021 21:07:19 STAMPS           ########################################
+04-Sep-2021 21:07:19 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 21:07:19 PS_UNWRAP        Starting
+04-Sep-2021 21:07:19 GETPARM          small_baseline_flag='y'
+04-Sep-2021 21:07:19 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 21:07:19 GETPARM          scla_deramp='n'
+04-Sep-2021 21:07:19 GETPARM          subtr_tropo='n'
+04-Sep-2021 21:07:19 GETPARM          tropo_method='a_l'
+04-Sep-2021 21:07:19 GETPARM          drop_ifg_index= 
+04-Sep-2021 21:07:20 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 21:07:22 GETPARM          unwrap_time_win=730 
+04-Sep-2021 21:07:22 GETPARM          unwrap_method='3D-QUICK'
+04-Sep-2021 21:07:22 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 21:07:22 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 21:07:22 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 21:07:22 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 21:07:22 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 21:07:22 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 21:07:22 GETPARM          max_topo_err=20 
+04-Sep-2021 21:07:23 GETPARM          lambda=0.0554658 
+04-Sep-2021 21:07:23 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 21:10:57 STAMPS           ########################################
+04-Sep-2021 21:10:57 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 21:10:57 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 21:10:57 STAMPS           ########################################
+04-Sep-2021 21:10:58 STAMPS           Will process current directory only
+04-Sep-2021 21:10:58 STAMPS           ########################################
+04-Sep-2021 21:10:58 STAMPS           ################ Step 6 ################
+04-Sep-2021 21:10:58 STAMPS           ########################################
+04-Sep-2021 21:10:58 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 21:10:58 PS_UNWRAP        Starting
+04-Sep-2021 21:10:58 GETPARM          small_baseline_flag='y'
+04-Sep-2021 21:10:58 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 21:10:58 GETPARM          scla_deramp='n'
+04-Sep-2021 21:10:58 GETPARM          subtr_tropo='n'
+04-Sep-2021 21:10:58 GETPARM          tropo_method='a_l'
+04-Sep-2021 21:10:59 GETPARM          drop_ifg_index= 
+04-Sep-2021 21:11:00 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 21:11:02 GETPARM          unwrap_time_win=730 
+04-Sep-2021 21:11:02 GETPARM          unwrap_method='3D-QUICK'
+04-Sep-2021 21:11:02 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 21:11:02 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 21:11:03 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 21:11:03 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 21:11:03 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 21:11:03 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 21:11:03 GETPARM          max_topo_err=20 
+04-Sep-2021 21:11:03 GETPARM          lambda=0.0554658 
+04-Sep-2021 21:11:03 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 21:18:47 SETPARM          unwrap_method = 3D_QUICK
+04-Sep-2021 21:18:50 STAMPS           ########################################
+04-Sep-2021 21:18:50 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 21:18:50 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 21:18:50 STAMPS           ########################################
+04-Sep-2021 21:18:51 STAMPS           Will process current directory only
+04-Sep-2021 21:18:51 STAMPS           ########################################
+04-Sep-2021 21:18:51 STAMPS           ################ Step 6 ################
+04-Sep-2021 21:18:51 STAMPS           ########################################
+04-Sep-2021 21:18:51 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 21:18:51 PS_UNWRAP        Starting
+04-Sep-2021 21:18:51 GETPARM          small_baseline_flag='y'
+04-Sep-2021 21:18:51 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 21:18:51 GETPARM          scla_deramp='n'
+04-Sep-2021 21:18:51 GETPARM          subtr_tropo='n'
+04-Sep-2021 21:18:51 GETPARM          tropo_method='a_l'
+04-Sep-2021 21:18:51 GETPARM          drop_ifg_index= 
+04-Sep-2021 21:18:52 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 21:18:54 GETPARM          unwrap_time_win=730 
+04-Sep-2021 21:18:54 GETPARM          unwrap_method='3D_QUICK'
+04-Sep-2021 21:18:54 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 21:18:54 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 21:18:54 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 21:18:54 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 21:18:54 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 21:18:54 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 21:18:55 GETPARM          max_topo_err=20 
+04-Sep-2021 21:18:55 GETPARM          lambda=0.0554658 
+04-Sep-2021 21:18:55 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 21:35:12 STAMPS           ########################################
+04-Sep-2021 21:35:12 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 21:35:12 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 21:35:12 STAMPS           ########################################
+04-Sep-2021 21:35:13 STAMPS           Will process current directory only
+04-Sep-2021 21:35:13 STAMPS           ########################################
+04-Sep-2021 21:35:13 STAMPS           ################ Step 6 ################
+04-Sep-2021 21:35:13 STAMPS           ########################################
+04-Sep-2021 21:35:13 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 21:35:13 PS_UNWRAP        Starting
+04-Sep-2021 21:35:13 GETPARM          small_baseline_flag='y'
+04-Sep-2021 21:35:13 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 21:35:13 GETPARM          scla_deramp='n'
+04-Sep-2021 21:35:13 GETPARM          subtr_tropo='n'
+04-Sep-2021 21:35:13 GETPARM          tropo_method='a_l'
+04-Sep-2021 21:35:13 GETPARM          drop_ifg_index= 
+04-Sep-2021 21:35:14 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 21:35:16 GETPARM          unwrap_time_win=730 
+04-Sep-2021 21:35:16 GETPARM          unwrap_method='3D_QUICK'
+04-Sep-2021 21:35:16 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 21:35:16 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 21:35:16 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 21:35:16 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 21:35:16 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 21:35:16 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 21:35:16 GETPARM          max_topo_err=20 
+04-Sep-2021 21:35:17 GETPARM          lambda=0.0554658 
+04-Sep-2021 21:35:17 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 21:55:32 SETPARM          unwrap_method = 3D
+04-Sep-2021 21:55:36 STAMPS           ########################################
+04-Sep-2021 21:55:36 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 21:55:36 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 21:55:36 STAMPS           ########################################
+04-Sep-2021 21:55:37 STAMPS           Will process current directory only
+04-Sep-2021 21:55:37 STAMPS           ########################################
+04-Sep-2021 21:55:37 STAMPS           ################ Step 6 ################
+04-Sep-2021 21:55:37 STAMPS           ########################################
+04-Sep-2021 21:55:37 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 21:55:37 PS_UNWRAP        Starting
+04-Sep-2021 21:55:37 GETPARM          small_baseline_flag='y'
+04-Sep-2021 21:55:37 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 21:55:37 GETPARM          scla_deramp='n'
+04-Sep-2021 21:55:37 GETPARM          subtr_tropo='n'
+04-Sep-2021 21:55:37 GETPARM          tropo_method='a_l'
+04-Sep-2021 21:55:37 GETPARM          drop_ifg_index= 
+04-Sep-2021 21:55:38 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 21:55:40 GETPARM          unwrap_time_win=730 
+04-Sep-2021 21:55:40 GETPARM          unwrap_method='3D'
+04-Sep-2021 21:55:40 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 21:55:40 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 21:55:40 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 21:55:40 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 21:55:40 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 21:55:40 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 21:55:40 GETPARM          max_topo_err=20 
+04-Sep-2021 21:55:41 GETPARM          lambda=0.0554658 
+04-Sep-2021 21:55:41 PS_UNWRAP        n_trial_wraps=0.259096
+04-Sep-2021 23:17:50 STAMPS           ########################################
+04-Sep-2021 23:17:50 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+04-Sep-2021 23:17:50 STAMPS           #######  Beta version, Jun 2018  #######
+04-Sep-2021 23:17:50 STAMPS           ########################################
+04-Sep-2021 23:17:51 STAMPS           Will process current directory only
+04-Sep-2021 23:17:51 STAMPS           ########################################
+04-Sep-2021 23:17:51 STAMPS           ################ Step 6 ################
+04-Sep-2021 23:17:51 STAMPS           ########################################
+04-Sep-2021 23:17:51 STAMPS           Directory is SMALL_BASELINES
+04-Sep-2021 23:17:51 PS_UNWRAP        Starting
+04-Sep-2021 23:17:51 GETPARM          small_baseline_flag='y'
+04-Sep-2021 23:17:51 GETPARM          unwrap_patch_phase='n'
+04-Sep-2021 23:17:51 GETPARM          scla_deramp='n'
+04-Sep-2021 23:17:51 GETPARM          subtr_tropo='n'
+04-Sep-2021 23:17:51 GETPARM          tropo_method='a_l'
+04-Sep-2021 23:17:51 GETPARM          drop_ifg_index= 
+04-Sep-2021 23:17:52 GETPARM          unwrap_hold_good_values='n'
+04-Sep-2021 23:17:54 GETPARM          unwrap_time_win=730 
+04-Sep-2021 23:17:54 GETPARM          unwrap_method='3D'
+04-Sep-2021 23:17:54 GETPARM          unwrap_grid_size=10 
+04-Sep-2021 23:17:54 GETPARM          unwrap_gold_n_win=32 
+04-Sep-2021 23:17:54 GETPARM          unwrap_prefilter_flag='y'
+04-Sep-2021 23:17:55 GETPARM          unwrap_gold_alpha=0.8 
+04-Sep-2021 23:17:55 GETPARM          unwrap_la_error_flag='y'
+04-Sep-2021 23:17:55 GETPARM          unwrap_spatial_cost_func_flag='n'
+04-Sep-2021 23:17:55 GETPARM          max_topo_err=20 
+04-Sep-2021 23:17:55 GETPARM          lambda=0.0554658 
+04-Sep-2021 23:17:55 PS_UNWRAP        n_trial_wraps=0.259096
+05-Sep-2021 00:55:10 STAMPS           ########################################
+05-Sep-2021 00:55:10 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+05-Sep-2021 00:55:10 STAMPS           #######  Beta version, Jun 2018  #######
+05-Sep-2021 00:55:10 STAMPS           ########################################
+05-Sep-2021 00:55:11 STAMPS           Will process current directory only
+05-Sep-2021 00:55:11 STAMPS           ########################################
+05-Sep-2021 00:55:11 STAMPS           ################ Step 6 ################
+05-Sep-2021 00:55:11 STAMPS           ########################################
+05-Sep-2021 00:55:11 STAMPS           Directory is SMALL_BASELINES
+05-Sep-2021 00:55:11 PS_UNWRAP        Starting
+05-Sep-2021 00:55:11 GETPARM          small_baseline_flag='y'
+05-Sep-2021 00:55:11 GETPARM          unwrap_patch_phase='n'
+05-Sep-2021 00:55:11 GETPARM          scla_deramp='n'
+05-Sep-2021 00:55:11 GETPARM          subtr_tropo='n'
+05-Sep-2021 00:55:11 GETPARM          tropo_method='a_l'
+05-Sep-2021 00:55:11 GETPARM          drop_ifg_index= 
+05-Sep-2021 00:55:12 GETPARM          unwrap_hold_good_values='n'
+05-Sep-2021 00:55:14 GETPARM          unwrap_time_win=730 
+05-Sep-2021 00:55:14 GETPARM          unwrap_method='3D'
+05-Sep-2021 00:55:14 GETPARM          unwrap_grid_size=10 
+05-Sep-2021 00:55:14 GETPARM          unwrap_gold_n_win=32 
+05-Sep-2021 00:55:14 GETPARM          unwrap_prefilter_flag='y'
+05-Sep-2021 00:55:14 GETPARM          unwrap_gold_alpha=0.8 
+05-Sep-2021 00:55:14 GETPARM          unwrap_la_error_flag='y'
+05-Sep-2021 00:55:15 GETPARM          unwrap_spatial_cost_func_flag='n'
+05-Sep-2021 00:55:15 GETPARM          max_topo_err=20 
+05-Sep-2021 00:55:15 GETPARM          lambda=0.0554658 
+05-Sep-2021 00:55:15 PS_UNWRAP        n_trial_wraps=0.259096
+05-Sep-2021 10:43:26 STAMPS           ########################################
+05-Sep-2021 10:43:26 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+05-Sep-2021 10:43:26 STAMPS           #######  Beta version, Jun 2018  #######
+05-Sep-2021 10:43:26 STAMPS           ########################################
+05-Sep-2021 10:43:26 STAMPS           Will process current directory only
+05-Sep-2021 10:43:26 STAMPS           ########################################
+05-Sep-2021 10:43:26 STAMPS           ################ Step 6 ################
+05-Sep-2021 10:43:26 STAMPS           ########################################
+05-Sep-2021 10:43:26 STAMPS           Directory is SMALL_BASELINES
+05-Sep-2021 10:43:26 PS_UNWRAP        Starting
+05-Sep-2021 10:43:26 GETPARM          small_baseline_flag='y'
+05-Sep-2021 10:43:26 GETPARM          unwrap_patch_phase='n'
+05-Sep-2021 10:43:26 GETPARM          scla_deramp='n'
+05-Sep-2021 10:43:26 GETPARM          subtr_tropo='n'
+05-Sep-2021 10:43:26 GETPARM          tropo_method='a_l'
+05-Sep-2021 10:43:26 GETPARM          drop_ifg_index= 
+05-Sep-2021 10:43:27 GETPARM          unwrap_hold_good_values='n'
+05-Sep-2021 10:43:27 GETPARM          unwrap_time_win=730 
+05-Sep-2021 10:43:27 GETPARM          unwrap_method='3D'
+05-Sep-2021 10:43:27 GETPARM          unwrap_grid_size=10 
+05-Sep-2021 10:43:27 GETPARM          unwrap_gold_n_win=32 
+05-Sep-2021 10:43:27 GETPARM          unwrap_prefilter_flag='y'
+05-Sep-2021 10:43:27 GETPARM          unwrap_gold_alpha=0.8 
+05-Sep-2021 10:43:27 GETPARM          unwrap_la_error_flag='y'
+05-Sep-2021 10:43:27 GETPARM          unwrap_spatial_cost_func_flag='n'
+05-Sep-2021 10:43:27 GETPARM          max_topo_err=20 
+05-Sep-2021 10:43:27 GETPARM          lambda=0.0554658 
+05-Sep-2021 10:43:27 PS_UNWRAP        n_trial_wraps=0.259096
+05-Sep-2021 10:43:37 PS_UNWRAP        Finished
+05-Sep-2021 10:43:37 SB_INVERT_UW     Starting
+05-Sep-2021 10:43:40 SB_INVERT_UW     Finished
+05-Sep-2021 10:43:40 STAMPS           Finished
+05-Sep-2021 10:43:47 STAMPS           ########################################
+05-Sep-2021 10:43:47 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+05-Sep-2021 10:43:47 STAMPS           #######  Beta version, Jun 2018  #######
+05-Sep-2021 10:43:47 STAMPS           ########################################
+05-Sep-2021 10:43:47 STAMPS           Will process current directory only
+05-Sep-2021 10:43:47 STAMPS           ########################################
+05-Sep-2021 10:43:47 STAMPS           ################ Step 7 ################
+05-Sep-2021 10:43:47 STAMPS           ########################################
+05-Sep-2021 10:43:47 STAMPS           Directory is SMALL_BASELINES
+05-Sep-2021 10:43:47 PS_CALC_SCLA     Starting
+05-Sep-2021 10:43:47 GETPARM          small_baseline_flag='y'
+05-Sep-2021 10:43:47 GETPARM          drop_ifg_index= 
+05-Sep-2021 10:43:47 GETPARM          scla_method='L2'
+05-Sep-2021 10:43:47 GETPARM          scla_deramp='n'
+05-Sep-2021 10:43:47 GETPARM          subtr_tropo='n'
+05-Sep-2021 10:43:47 GETPARM          tropo_method='a_l'
+05-Sep-2021 10:43:47 GETPARM          sb_scla_drop_index= 
+05-Sep-2021 10:43:48 PS_CALC_SCLA     71 ifgs used in estimation:
+05-Sep-2021 10:43:48 PS_CALC_SCLA        24-Jan-2017 to 05-Feb-2017    12 days     6 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        24-Jan-2017 to 13-Mar-2017    48 days    30 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        05-Feb-2017 to 13-Mar-2017    36 days    24 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        05-Feb-2017 to 25-Mar-2017    48 days   -14 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        13-Mar-2017 to 25-Mar-2017    12 days   -39 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        13-Mar-2017 to 06-Apr-2017    24 days    21 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        13-Mar-2017 to 18-Apr-2017    36 days    38 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        13-Mar-2017 to 30-Apr-2017    48 days    -8 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        25-Mar-2017 to 06-Apr-2017    12 days    60 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        25-Mar-2017 to 18-Apr-2017    24 days    77 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        25-Mar-2017 to 30-Apr-2017    36 days    31 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        25-Mar-2017 to 12-May-2017    48 days    77 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        06-Apr-2017 to 18-Apr-2017    12 days    17 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        06-Apr-2017 to 30-Apr-2017    24 days   -29 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        06-Apr-2017 to 12-May-2017    36 days    16 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        06-Apr-2017 to 24-May-2017    48 days   -96 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        18-Apr-2017 to 30-Apr-2017    12 days   -46 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        18-Apr-2017 to 12-May-2017    24 days     0 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        18-Apr-2017 to 24-May-2017    36 days  -113 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        18-Apr-2017 to 05-Jun-2017    48 days   -18 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        30-Apr-2017 to 12-May-2017    12 days    46 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        30-Apr-2017 to 24-May-2017    24 days   -67 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        30-Apr-2017 to 05-Jun-2017    36 days    28 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        12-May-2017 to 24-May-2017    12 days  -113 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        12-May-2017 to 05-Jun-2017    24 days   -18 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        12-May-2017 to 29-Jun-2017    48 days   -61 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        24-May-2017 to 05-Jun-2017    12 days    95 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        24-May-2017 to 29-Jun-2017    36 days    52 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        24-May-2017 to 11-Jul-2017    48 days    23 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        05-Jun-2017 to 29-Jun-2017    24 days   -43 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        05-Jun-2017 to 11-Jul-2017    36 days   -72 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        05-Jun-2017 to 23-Jul-2017    48 days   -79 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        29-Jun-2017 to 11-Jul-2017    12 days   -29 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        29-Jun-2017 to 23-Jul-2017    24 days   -35 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        29-Jun-2017 to 04-Aug-2017    36 days    22 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        11-Jul-2017 to 23-Jul-2017    12 days    -6 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        11-Jul-2017 to 04-Aug-2017    24 days    51 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        11-Jul-2017 to 16-Aug-2017    36 days    65 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        23-Jul-2017 to 04-Aug-2017    12 days    57 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        23-Jul-2017 to 16-Aug-2017    24 days    72 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        23-Jul-2017 to 28-Aug-2017    36 days    70 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        04-Aug-2017 to 16-Aug-2017    12 days    15 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        04-Aug-2017 to 28-Aug-2017    24 days    13 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        04-Aug-2017 to 09-Sep-2017    36 days   -17 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        04-Aug-2017 to 21-Sep-2017    48 days   -19 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        16-Aug-2017 to 28-Aug-2017    12 days    -1 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        16-Aug-2017 to 09-Sep-2017    24 days   -31 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        16-Aug-2017 to 21-Sep-2017    36 days   -34 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        16-Aug-2017 to 03-Oct-2017    48 days   -54 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        28-Aug-2017 to 09-Sep-2017    12 days   -30 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        28-Aug-2017 to 21-Sep-2017    24 days   -33 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        28-Aug-2017 to 03-Oct-2017    36 days   -53 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        28-Aug-2017 to 15-Oct-2017    48 days   -22 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        09-Sep-2017 to 21-Sep-2017    12 days    -3 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        09-Sep-2017 to 03-Oct-2017    24 days   -23 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        09-Sep-2017 to 15-Oct-2017    36 days     8 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        09-Sep-2017 to 27-Oct-2017    48 days    68 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        21-Sep-2017 to 03-Oct-2017    12 days   -20 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        21-Sep-2017 to 15-Oct-2017    24 days    11 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        21-Sep-2017 to 27-Oct-2017    36 days    71 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        21-Sep-2017 to 08-Nov-2017    48 days   -20 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        03-Oct-2017 to 15-Oct-2017    12 days    31 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        03-Oct-2017 to 27-Oct-2017    24 days    91 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        03-Oct-2017 to 08-Nov-2017    36 days     0 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        03-Oct-2017 to 20-Nov-2017    48 days    39 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        15-Oct-2017 to 27-Oct-2017    12 days    59 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        15-Oct-2017 to 08-Nov-2017    24 days   -31 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        15-Oct-2017 to 20-Nov-2017    36 days     7 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        27-Oct-2017 to 08-Nov-2017    12 days   -91 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        27-Oct-2017 to 20-Nov-2017    24 days   -52 m
+05-Sep-2021 10:43:48 PS_CALC_SCLA        08-Nov-2017 to 20-Nov-2017    12 days    39 m
+05-Sep-2021 10:43:49 PS_CALC_SCLA     Finished
+05-Sep-2021 10:43:49 PS_SMOOTH_SCLA   Starting
+05-Sep-2021 10:43:49 PS_SMOOTH_SCLA   Number of points per ifg: 83441
+05-Sep-2021 10:43:49 PS_SMOOTH_SCLA   Number of arcs per ifg=250293
+05-Sep-2021 10:44:01 PS_SMOOTH_SCLA   Finished
+05-Sep-2021 10:44:01 PS_CALC_SCLA     Starting
+05-Sep-2021 10:44:01 GETPARM          small_baseline_flag='y'
+05-Sep-2021 10:44:01 GETPARM          drop_ifg_index= 
+05-Sep-2021 10:44:01 GETPARM          scla_method='L2'
+05-Sep-2021 10:44:01 GETPARM          scla_deramp='n'
+05-Sep-2021 10:44:01 GETPARM          subtr_tropo='n'
+05-Sep-2021 10:44:01 GETPARM          tropo_method='a_l'
+05-Sep-2021 10:44:01 GETPARM          scla_drop_index= 
+05-Sep-2021 10:44:02 PS_CALC_SCLA     21 ifgs used in estimation:
+05-Sep-2021 10:44:02 PS_CALC_SCLA        24-Jan-2017 to 05-Feb-2017    12 days     6 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        05-Feb-2017 to 13-Mar-2017    36 days    24 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        13-Mar-2017 to 25-Mar-2017    12 days   -39 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        25-Mar-2017 to 06-Apr-2017    12 days    60 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        06-Apr-2017 to 30-Apr-2017    24 days   -29 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        30-Apr-2017 to 12-May-2017    12 days    46 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        12-May-2017 to 24-May-2017    12 days  -113 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        24-May-2017 to 05-Jun-2017    12 days    95 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        05-Jun-2017 to 29-Jun-2017    24 days   -43 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        29-Jun-2017 to 11-Jul-2017    12 days   -29 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        11-Jul-2017 to 23-Jul-2017    12 days    -6 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        23-Jul-2017 to 04-Aug-2017    12 days    57 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        04-Aug-2017 to 16-Aug-2017    12 days    15 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        16-Aug-2017 to 28-Aug-2017    12 days    -1 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        28-Aug-2017 to 09-Sep-2017    12 days   -30 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        09-Sep-2017 to 21-Sep-2017    12 days    -3 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        21-Sep-2017 to 03-Oct-2017    12 days   -20 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        03-Oct-2017 to 15-Oct-2017    12 days    31 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        15-Oct-2017 to 27-Oct-2017    12 days    59 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        27-Oct-2017 to 08-Nov-2017    12 days   -91 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA        08-Nov-2017 to 20-Nov-2017    12 days    39 m
+05-Sep-2021 10:44:02 PS_CALC_SCLA     Finished
+05-Sep-2021 10:44:02 STAMPS           Finished
+05-Sep-2021 11:44:49 SB_INVERT_UW     Starting
+05-Sep-2021 11:44:52 SB_INVERT_UW     Finished
+05-Sep-2021 11:46:55 SB_INVERT_UW     Starting
+05-Sep-2021 11:46:58 SB_INVERT_UW     Finished
+05-Sep-2021 11:48:43 SB_INVERT_UW     Starting
+05-Sep-2021 11:48:46 SB_INVERT_UW     Finished
+05-Sep-2021 11:52:20 SB_INVERT_UW     Starting
+05-Sep-2021 11:52:23 SB_INVERT_UW     Finished
+05-Sep-2021 11:54:20 SB_INVERT_UW     Starting
+05-Sep-2021 11:54:23 SB_INVERT_UW     Finished
+05-Sep-2021 11:56:30 SB_INVERT_UW     Starting
+05-Sep-2021 11:56:33 SB_INVERT_UW     Finished
+05-Sep-2021 11:58:36 SB_INVERT_UW     Starting
+05-Sep-2021 11:58:40 SB_INVERT_UW     Finished
+05-Sep-2021 12:02:29 SB_INVERT_UW     Starting
+05-Sep-2021 12:02:32 SB_INVERT_UW     Finished
+05-Sep-2021 12:03:58 SETPARM          scla_deramp = y
+05-Sep-2021 12:04:07 STAMPS           ########################################
+05-Sep-2021 12:04:07 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+05-Sep-2021 12:04:07 STAMPS           #######  Beta version, Jun 2018  #######
+05-Sep-2021 12:04:07 STAMPS           ########################################
+05-Sep-2021 12:04:07 STAMPS           Will process current directory only
+05-Sep-2021 12:04:07 STAMPS           ########################################
+05-Sep-2021 12:04:07 STAMPS           ################ Step 7 ################
+05-Sep-2021 12:04:07 STAMPS           ########################################
+05-Sep-2021 12:04:07 STAMPS           Directory is SMALL_BASELINES
+05-Sep-2021 12:04:07 PS_CALC_SCLA     Starting
+05-Sep-2021 12:04:07 GETPARM          small_baseline_flag='y'
+05-Sep-2021 12:04:07 GETPARM          drop_ifg_index= 
+05-Sep-2021 12:04:08 GETPARM          scla_method='L2'
+05-Sep-2021 12:04:08 GETPARM          scla_deramp='y'
+05-Sep-2021 12:04:08 GETPARM          subtr_tropo='n'
+05-Sep-2021 12:04:08 GETPARM          tropo_method='a_l'
+05-Sep-2021 12:04:08 GETPARM          sb_scla_drop_index= 
+05-Sep-2021 12:04:09 PS_CALC_SCLA     71 ifgs used in estimation:
+05-Sep-2021 12:04:09 PS_CALC_SCLA        24-Jan-2017 to 05-Feb-2017    12 days     6 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        24-Jan-2017 to 13-Mar-2017    48 days    30 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        05-Feb-2017 to 13-Mar-2017    36 days    24 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        05-Feb-2017 to 25-Mar-2017    48 days   -14 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        13-Mar-2017 to 25-Mar-2017    12 days   -39 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        13-Mar-2017 to 06-Apr-2017    24 days    21 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        13-Mar-2017 to 18-Apr-2017    36 days    38 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        13-Mar-2017 to 30-Apr-2017    48 days    -8 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        25-Mar-2017 to 06-Apr-2017    12 days    60 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        25-Mar-2017 to 18-Apr-2017    24 days    77 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        25-Mar-2017 to 30-Apr-2017    36 days    31 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        25-Mar-2017 to 12-May-2017    48 days    77 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        06-Apr-2017 to 18-Apr-2017    12 days    17 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        06-Apr-2017 to 30-Apr-2017    24 days   -29 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        06-Apr-2017 to 12-May-2017    36 days    16 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        06-Apr-2017 to 24-May-2017    48 days   -96 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        18-Apr-2017 to 30-Apr-2017    12 days   -46 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        18-Apr-2017 to 12-May-2017    24 days     0 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        18-Apr-2017 to 24-May-2017    36 days  -113 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        18-Apr-2017 to 05-Jun-2017    48 days   -18 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        30-Apr-2017 to 12-May-2017    12 days    46 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        30-Apr-2017 to 24-May-2017    24 days   -67 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        30-Apr-2017 to 05-Jun-2017    36 days    28 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        12-May-2017 to 24-May-2017    12 days  -113 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        12-May-2017 to 05-Jun-2017    24 days   -18 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        12-May-2017 to 29-Jun-2017    48 days   -61 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        24-May-2017 to 05-Jun-2017    12 days    95 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        24-May-2017 to 29-Jun-2017    36 days    52 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        24-May-2017 to 11-Jul-2017    48 days    23 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        05-Jun-2017 to 29-Jun-2017    24 days   -43 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        05-Jun-2017 to 11-Jul-2017    36 days   -72 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        05-Jun-2017 to 23-Jul-2017    48 days   -79 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        29-Jun-2017 to 11-Jul-2017    12 days   -29 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        29-Jun-2017 to 23-Jul-2017    24 days   -35 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        29-Jun-2017 to 04-Aug-2017    36 days    22 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        11-Jul-2017 to 23-Jul-2017    12 days    -6 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        11-Jul-2017 to 04-Aug-2017    24 days    51 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        11-Jul-2017 to 16-Aug-2017    36 days    65 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        23-Jul-2017 to 04-Aug-2017    12 days    57 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        23-Jul-2017 to 16-Aug-2017    24 days    72 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        23-Jul-2017 to 28-Aug-2017    36 days    70 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        04-Aug-2017 to 16-Aug-2017    12 days    15 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        04-Aug-2017 to 28-Aug-2017    24 days    13 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        04-Aug-2017 to 09-Sep-2017    36 days   -17 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        04-Aug-2017 to 21-Sep-2017    48 days   -19 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        16-Aug-2017 to 28-Aug-2017    12 days    -1 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        16-Aug-2017 to 09-Sep-2017    24 days   -31 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        16-Aug-2017 to 21-Sep-2017    36 days   -34 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        16-Aug-2017 to 03-Oct-2017    48 days   -54 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        28-Aug-2017 to 09-Sep-2017    12 days   -30 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        28-Aug-2017 to 21-Sep-2017    24 days   -33 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        28-Aug-2017 to 03-Oct-2017    36 days   -53 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        28-Aug-2017 to 15-Oct-2017    48 days   -22 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        09-Sep-2017 to 21-Sep-2017    12 days    -3 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        09-Sep-2017 to 03-Oct-2017    24 days   -23 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        09-Sep-2017 to 15-Oct-2017    36 days     8 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        09-Sep-2017 to 27-Oct-2017    48 days    68 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        21-Sep-2017 to 03-Oct-2017    12 days   -20 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        21-Sep-2017 to 15-Oct-2017    24 days    11 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        21-Sep-2017 to 27-Oct-2017    36 days    71 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        21-Sep-2017 to 08-Nov-2017    48 days   -20 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        03-Oct-2017 to 15-Oct-2017    12 days    31 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        03-Oct-2017 to 27-Oct-2017    24 days    91 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        03-Oct-2017 to 08-Nov-2017    36 days     0 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        03-Oct-2017 to 20-Nov-2017    48 days    39 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        15-Oct-2017 to 27-Oct-2017    12 days    59 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        15-Oct-2017 to 08-Nov-2017    24 days   -31 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        15-Oct-2017 to 20-Nov-2017    36 days     7 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        27-Oct-2017 to 08-Nov-2017    12 days   -91 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        27-Oct-2017 to 20-Nov-2017    24 days   -52 m
+05-Sep-2021 12:04:09 PS_CALC_SCLA        08-Nov-2017 to 20-Nov-2017    12 days    39 m
+05-Sep-2021 12:04:13 PS_CALC_SCLA     Finished
+05-Sep-2021 12:04:13 PS_SMOOTH_SCLA   Starting
+05-Sep-2021 12:04:13 PS_SMOOTH_SCLA   Number of points per ifg: 83441
+05-Sep-2021 12:04:14 PS_SMOOTH_SCLA   Number of arcs per ifg=250293
+05-Sep-2021 12:04:25 PS_SMOOTH_SCLA   Finished
+05-Sep-2021 12:04:25 PS_CALC_SCLA     Starting
+05-Sep-2021 12:04:25 GETPARM          small_baseline_flag='y'
+05-Sep-2021 12:04:25 GETPARM          drop_ifg_index= 
+05-Sep-2021 12:04:25 GETPARM          scla_method='L2'
+05-Sep-2021 12:04:25 GETPARM          scla_deramp='y'
+05-Sep-2021 12:04:25 GETPARM          subtr_tropo='n'
+05-Sep-2021 12:04:26 GETPARM          tropo_method='a_l'
+05-Sep-2021 12:04:26 GETPARM          scla_drop_index= 
+05-Sep-2021 12:04:27 PS_CALC_SCLA     21 ifgs used in estimation:
+05-Sep-2021 12:04:27 PS_CALC_SCLA        24-Jan-2017 to 05-Feb-2017    12 days     6 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        05-Feb-2017 to 13-Mar-2017    36 days    24 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        13-Mar-2017 to 25-Mar-2017    12 days   -39 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        25-Mar-2017 to 06-Apr-2017    12 days    60 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        06-Apr-2017 to 30-Apr-2017    24 days   -29 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        30-Apr-2017 to 12-May-2017    12 days    46 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        12-May-2017 to 24-May-2017    12 days  -113 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        24-May-2017 to 05-Jun-2017    12 days    95 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        05-Jun-2017 to 29-Jun-2017    24 days   -43 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        29-Jun-2017 to 11-Jul-2017    12 days   -29 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        11-Jul-2017 to 23-Jul-2017    12 days    -6 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        23-Jul-2017 to 04-Aug-2017    12 days    57 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        04-Aug-2017 to 16-Aug-2017    12 days    15 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        16-Aug-2017 to 28-Aug-2017    12 days    -1 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        28-Aug-2017 to 09-Sep-2017    12 days   -30 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        09-Sep-2017 to 21-Sep-2017    12 days    -3 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        21-Sep-2017 to 03-Oct-2017    12 days   -20 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        03-Oct-2017 to 15-Oct-2017    12 days    31 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        15-Oct-2017 to 27-Oct-2017    12 days    59 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        27-Oct-2017 to 08-Nov-2017    12 days   -91 m
+05-Sep-2021 12:04:27 PS_CALC_SCLA        08-Nov-2017 to 20-Nov-2017    12 days    39 m
+05-Sep-2021 12:04:28 PS_CALC_SCLA     Finished
+05-Sep-2021 12:04:28 STAMPS           Finished
