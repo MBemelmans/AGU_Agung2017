@@ -1,0 +1,457 @@
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT max_topo_err = 20
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT quick_est_gamma_flag = y
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT select_reest_gamma_flag = y
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT filter_grid_size = 50
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT filter_weighting = P-square
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT gamma_change_convergence = 0.005
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT gamma_max_iterations = 3
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT slc_osf = 1
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT clap_win = 32
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT clap_low_pass_wavelength = 800
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT clap_alpha = 1
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT clap_beta = 0.3
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT select_method = DENSITY
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT density_rand = 20
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT percent_rand = 20
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT gamma_stdev_reject = 0
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT weed_time_win = 730
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT weed_max_noise = Inf
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT weed_standard_dev = 1
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT weed_zero_elevation = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT weed_neighbours = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_method = 3D
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_patch_phase = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT drop_ifg_index = []
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_la_error_flag = y
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_spatial_cost_func_flag = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_prefilter_flag = y
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_grid_size = 200
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_gold_n_win = 32
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_alpha = 8
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_time_win = 730
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_gold_alpha = 0.8
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT unwrap_hold_good_values = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scla_drop_index = []
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scn_wavelength = 100
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scn_time_win = 365
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scn_deramp_ifg = []
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scn_kriging_flag = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT ref_lon = -Inf  Inf
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT ref_lat = -Inf  Inf
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT ref_centre_lonlat = 0  0
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT ref_radius = Inf
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT ref_velocity = 0
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT n_cores = 1
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT plot_dem_posting = 90
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT plot_scatterer_size = 120
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT plot_pixels_scatterer = 3
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT plot_color_scheme = inflation
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT shade_rel_angle = 90  45
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT lonlat_offset = 0  0
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT merge_resample_size = 0
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT merge_standard_dev = Inf
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scla_method = L2
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT scla_deramp = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT lambda = NaN
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT heading = NaN
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT insar_processor = gamma
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT subtr_tropo = n
+25-Feb-2022 20:02:51 PS_PARMS_DEFAULT tropo_method = a_l
+25-Feb-2022 20:03:08 SETPARM          filter_grid_size = 2
+25-Feb-2022 20:03:19 SETPARM          gamma_max_iterations = 5
+25-Feb-2022 20:03:35 SETPARM          merge_resample_size = 0
+25-Feb-2022 20:03:44 SETPARM          plot_scatterer_size = 10
+25-Feb-2022 20:03:54 SETPARM          unwrap_grid_size = 5
+25-Feb-2022 20:04:23 STAMPS           ########################################
+25-Feb-2022 20:04:23 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+25-Feb-2022 20:04:23 STAMPS           #######  Beta version, Jun 2018  #######
+25-Feb-2022 20:04:23 STAMPS           ########################################
+25-Feb-2022 20:04:23 STAMPS           Will process patch subdirectories
+25-Feb-2022 20:04:23 SETPARM          heading = -168.0341
+25-Feb-2022 20:04:23 SETPARM          lambda = 0.031228
+25-Feb-2022 20:04:23 SETPARM          platform = CSKS1
+25-Feb-2022 20:04:58 SETPARM          small_baseline_flag = y
+25-Feb-2022 20:05:00 PS_PARMS_DEFAULT sb_scla_drop_index = []
+25-Feb-2022 20:05:00 SETPARM          heading = -168.0341
+25-Feb-2022 20:05:00 SETPARM          lambda = 0.031228
+25-Feb-2022 20:05:00 SETPARM          platform = CSKS1
+25-Feb-2022 20:05:15 STAMPS           ########################################
+25-Feb-2022 20:05:15 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+25-Feb-2022 20:05:15 STAMPS           #######  Beta version, Jun 2018  #######
+25-Feb-2022 20:05:15 STAMPS           ########################################
+25-Feb-2022 20:05:15 STAMPS           Will process patch subdirectories
+25-Feb-2022 20:05:15 SETPARM          heading = -168.0341
+25-Feb-2022 20:05:16 SETPARM          lambda = 0.031228
+25-Feb-2022 20:05:16 SETPARM          platform = CSKS1
+25-Feb-2022 20:18:55 STAMPS           ########################################
+25-Feb-2022 20:18:55 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+25-Feb-2022 20:18:55 STAMPS           #######  Beta version, Jun 2018  #######
+25-Feb-2022 20:18:55 STAMPS           ########################################
+25-Feb-2022 20:18:55 STAMPS           Will process patch subdirectories
+25-Feb-2022 20:18:55 SETPARM          heading = -168.0341
+25-Feb-2022 20:18:55 SETPARM          lambda = 0.031228
+25-Feb-2022 20:18:55 SETPARM          platform = CSKS1
+25-Feb-2022 20:18:57 SETPARM          heading = -168.0341
+25-Feb-2022 20:18:57 SETPARM          lambda = 0.031228
+25-Feb-2022 20:18:57 SETPARM          platform = CSKS1
+25-Feb-2022 20:18:57 SETPARM          heading = -168.0341
+25-Feb-2022 20:18:57 SETPARM          lambda = 0.031228
+25-Feb-2022 20:18:57 SETPARM          platform = CSKS1
+25-Feb-2022 20:19:02 SETPARM          heading = -168.0341
+25-Feb-2022 20:19:02 SETPARM          lambda = 0.031228
+25-Feb-2022 20:19:02 SETPARM          platform = CSKS1
+25-Feb-2022 20:19:15 SETPARM          heading = -168.0341
+25-Feb-2022 20:19:15 SETPARM          lambda = 0.031228
+25-Feb-2022 20:19:15 SETPARM          platform = CSKS1
+25-Feb-2022 20:19:28 SETPARM          heading = -168.0341
+25-Feb-2022 20:19:28 SETPARM          lambda = 0.031228
+25-Feb-2022 20:19:28 SETPARM          platform = CSKS1
+25-Feb-2022 20:19:30 SETPARM          heading = -168.0341
+25-Feb-2022 20:19:30 SETPARM          lambda = 0.031228
+25-Feb-2022 20:19:30 SETPARM          platform = CSKS1
+25-Feb-2022 20:19:35 SETPARM          heading = -168.0341
+25-Feb-2022 20:19:35 SETPARM          lambda = 0.031228
+25-Feb-2022 20:19:35 SETPARM          platform = CSKS1
+25-Feb-2022 20:19:53 SETPARM          heading = -168.0341
+25-Feb-2022 20:19:53 SETPARM          lambda = 0.031228
+25-Feb-2022 20:19:53 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:12 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:12 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:12 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:18 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:18 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:18 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:20 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:20 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:20 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:29 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:29 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:29 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:38 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:38 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:38 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:46 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:46 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:46 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:47 SETPARM          heading = -168.0341
+25-Feb-2022 20:20:47 SETPARM          lambda = 0.031228
+25-Feb-2022 20:20:47 SETPARM          platform = CSKS1
+25-Feb-2022 20:20:51 STAMPS           Finished
+25-Feb-2022 20:21:01 STAMPS           ########################################
+25-Feb-2022 20:21:01 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+25-Feb-2022 20:21:01 STAMPS           #######  Beta version, Jun 2018  #######
+25-Feb-2022 20:21:01 STAMPS           ########################################
+25-Feb-2022 20:21:01 STAMPS           Will process patch subdirectories
+26-Feb-2022 00:14:11 STAMPS           Finished
+27-Feb-2022 00:45:05 STAMPS           ########################################
+27-Feb-2022 00:45:05 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+27-Feb-2022 00:45:05 STAMPS           #######  Beta version, Jun 2018  #######
+27-Feb-2022 00:45:05 STAMPS           ########################################
+27-Feb-2022 00:45:05 STAMPS           Will process patch subdirectories
+27-Feb-2022 03:28:00 STAMPS           Directory is SMALL_BASELINES
+27-Feb-2022 03:28:00 PS_MERGE_PATCHES Starting
+27-Feb-2022 03:28:00 GETPARM          merge_resample_size=0 
+27-Feb-2022 03:28:00 GETPARM          merge_standard_dev=Inf 
+27-Feb-2022 03:28:20 PS_MERGE_PATCHES Finished
+27-Feb-2022 03:28:22 STAMPS           ########################################
+27-Feb-2022 03:28:22 STAMPS           ################ Step 6 ################
+27-Feb-2022 03:28:22 STAMPS           ########################################
+27-Feb-2022 03:28:22 STAMPS           Directory is SMALL_BASELINES
+27-Feb-2022 03:28:23 PS_UNWRAP        Starting
+27-Feb-2022 03:28:23 GETPARM          small_baseline_flag='y'
+27-Feb-2022 03:28:23 GETPARM          unwrap_patch_phase='n'
+27-Feb-2022 03:28:23 GETPARM          scla_deramp='n'
+27-Feb-2022 03:28:23 GETPARM          subtr_tropo='n'
+27-Feb-2022 03:28:23 GETPARM          tropo_method='a_l'
+27-Feb-2022 03:28:23 GETPARM          drop_ifg_index= 
+27-Feb-2022 03:28:24 GETPARM          unwrap_hold_good_values='n'
+27-Feb-2022 03:28:24 PS_UNWRAP        Code to hold good values skipped
+27-Feb-2022 03:28:24 GETPARM          unwrap_time_win=730 
+27-Feb-2022 03:28:24 GETPARM          unwrap_method='3D'
+27-Feb-2022 03:28:24 GETPARM          unwrap_grid_size=5 
+27-Feb-2022 03:28:24 GETPARM          unwrap_gold_n_win=32 
+27-Feb-2022 03:28:24 GETPARM          unwrap_prefilter_flag='y'
+27-Feb-2022 03:28:24 GETPARM          unwrap_gold_alpha=0.8 
+27-Feb-2022 03:28:24 GETPARM          unwrap_la_error_flag='y'
+27-Feb-2022 03:28:24 GETPARM          unwrap_spatial_cost_func_flag='n'
+27-Feb-2022 03:28:24 GETPARM          max_topo_err=20 
+27-Feb-2022 03:28:24 GETPARM          lambda=0.0312284 
+27-Feb-2022 03:28:24 PS_UNWRAP        n_trial_wraps=1.615795
+27-Feb-2022 03:50:08 PS_UNWRAP        Finished
+27-Feb-2022 03:50:08 SB_INVERT_UW     Starting
+27-Feb-2022 03:50:13 SB_INVERT_UW     Finished
+27-Feb-2022 03:50:13 STAMPS           ########################################
+27-Feb-2022 03:50:13 STAMPS           ################ Step 7 ################
+27-Feb-2022 03:50:13 STAMPS           ########################################
+27-Feb-2022 03:50:13 STAMPS           Directory is SMALL_BASELINES
+27-Feb-2022 03:50:13 PS_CALC_SCLA     Starting
+27-Feb-2022 03:50:13 GETPARM          small_baseline_flag='y'
+27-Feb-2022 03:50:13 GETPARM          drop_ifg_index= 
+27-Feb-2022 03:50:13 GETPARM          scla_method='L2'
+27-Feb-2022 03:50:13 GETPARM          scla_deramp='n'
+27-Feb-2022 03:50:13 GETPARM          subtr_tropo='n'
+27-Feb-2022 03:50:13 GETPARM          tropo_method='a_l'
+27-Feb-2022 03:50:13 GETPARM          sb_scla_drop_index= 
+27-Feb-2022 03:50:14 PS_CALC_SCLA     31 ifgs used in estimation:
+27-Feb-2022 03:50:14 PS_CALC_SCLA        03-Apr-2017 to 11-Apr-2017     8 days  -259 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        03-Apr-2017 to 13-May-2017    40 days  -144 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        03-Apr-2017 to 29-May-2017    56 days   123 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        13-May-2017 to 29-May-2017    16 days   267 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        29-May-2017 to 04-Jul-2017    36 days   123 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        29-May-2017 to 01-Aug-2017    64 days   133 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        04-Jul-2017 to 01-Aug-2017    28 days    10 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        04-Jul-2017 to 25-Aug-2017    52 days  -205 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        04-Jul-2017 to 06-Sep-2017    64 days    97 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        04-Jul-2017 to 12-Oct-2017   100 days    61 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        04-Jul-2017 to 20-Oct-2017   108 days  -170 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        04-Jul-2017 to 24-Oct-2017   112 days    32 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        01-Aug-2017 to 25-Aug-2017    24 days  -215 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        01-Aug-2017 to 06-Sep-2017    36 days    87 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        01-Aug-2017 to 12-Oct-2017    72 days    52 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        01-Aug-2017 to 20-Oct-2017    80 days  -179 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        01-Aug-2017 to 24-Oct-2017    84 days    22 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        09-Aug-2017 to 25-Aug-2017    16 days    58 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        09-Aug-2017 to 20-Oct-2017    72 days    94 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        09-Aug-2017 to 09-Nov-2017    92 days  -113 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        25-Aug-2017 to 20-Oct-2017    56 days    36 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        25-Aug-2017 to 09-Nov-2017    76 days  -171 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        02-Sep-2017 to 10-Sep-2017     8 days   -14 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        02-Sep-2017 to 12-Oct-2017    40 days  -214 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        02-Sep-2017 to 21-Nov-2017    80 days   184 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        06-Sep-2017 to 12-Oct-2017    36 days   -35 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        06-Sep-2017 to 24-Oct-2017    48 days   -65 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        10-Sep-2017 to 12-Oct-2017    32 days  -200 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        10-Sep-2017 to 21-Nov-2017    72 days   198 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        12-Oct-2017 to 24-Oct-2017    12 days   -30 m
+27-Feb-2022 03:50:14 PS_CALC_SCLA        20-Oct-2017 to 09-Nov-2017    20 days  -207 m
+27-Feb-2022 03:50:15 PS_CALC_SCLA     Finished
+27-Feb-2022 03:50:15 PS_SMOOTH_SCLA   Starting
+27-Feb-2022 03:50:15 PS_SMOOTH_SCLA   Number of points per ifg: 282950
+27-Feb-2022 03:50:17 PS_SMOOTH_SCLA   Number of arcs per ifg=848822
+27-Feb-2022 03:50:54 PS_SMOOTH_SCLA   Finished
+27-Feb-2022 03:50:54 PS_CALC_SCLA     Starting
+27-Feb-2022 03:50:54 GETPARM          small_baseline_flag='y'
+27-Feb-2022 03:50:54 GETPARM          drop_ifg_index= 
+27-Feb-2022 03:50:54 GETPARM          scla_method='L2'
+27-Feb-2022 03:50:54 GETPARM          scla_deramp='n'
+27-Feb-2022 03:50:54 GETPARM          subtr_tropo='n'
+27-Feb-2022 03:50:54 GETPARM          tropo_method='a_l'
+27-Feb-2022 03:50:54 GETPARM          scla_drop_index= 
+27-Feb-2022 03:50:55 PS_CALC_SCLA     14 ifgs used in estimation:
+27-Feb-2022 03:50:55 PS_CALC_SCLA        03-Apr-2017 to 11-Apr-2017     8 days  -259 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        11-Apr-2017 to 13-May-2017    32 days   115 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        13-May-2017 to 29-May-2017    16 days   267 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        29-May-2017 to 04-Jul-2017    36 days   123 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        04-Jul-2017 to 01-Aug-2017    28 days    10 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        01-Aug-2017 to 09-Aug-2017     8 days  -273 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        09-Aug-2017 to 25-Aug-2017    16 days    58 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        25-Aug-2017 to 02-Sep-2017     8 days   481 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        02-Sep-2017 to 06-Sep-2017     4 days  -179 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        06-Sep-2017 to 10-Sep-2017     4 days   165 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        10-Sep-2017 to 20-Oct-2017    40 days  -431 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        20-Oct-2017 to 24-Oct-2017     4 days   201 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        24-Oct-2017 to 09-Nov-2017    16 days  -408 m
+27-Feb-2022 03:50:55 PS_CALC_SCLA        09-Nov-2017 to 21-Nov-2017    12 days   836 m
+27-Feb-2022 03:50:56 PS_CALC_SCLA     Finished
+27-Feb-2022 03:50:56 STAMPS           Finished
+01-Mar-2022 16:55:30 SB_INVERT_UW     Starting
+01-Mar-2022 16:55:38 SB_INVERT_UW     Finished
+01-Mar-2022 16:57:49 SB_INVERT_UW     Starting
+01-Mar-2022 16:57:55 SB_INVERT_UW     Finished
+01-Mar-2022 16:59:07 SB_INVERT_UW     Starting
+01-Mar-2022 16:59:12 SB_INVERT_UW     Finished
+01-Mar-2022 17:02:09 SB_INVERT_UW     Starting
+01-Mar-2022 17:02:16 SB_INVERT_UW     Finished
+01-Mar-2022 17:03:38 SB_INVERT_UW     Starting
+01-Mar-2022 17:03:44 SB_INVERT_UW     Finished
+01-Mar-2022 17:03:59 SB_INVERT_UW     Starting
+01-Mar-2022 17:04:05 SB_INVERT_UW     Finished
+01-Mar-2022 17:05:22 SB_INVERT_UW     Starting
+01-Mar-2022 17:05:30 SB_INVERT_UW     Finished
+01-Mar-2022 17:06:33 SB_INVERT_UW     Starting
+01-Mar-2022 17:06:38 SB_INVERT_UW     Finished
+01-Mar-2022 17:07:21 SB_INVERT_UW     Starting
+01-Mar-2022 17:07:26 SB_INVERT_UW     Finished
+01-Mar-2022 17:09:29 SB_INVERT_UW     Starting
+01-Mar-2022 17:09:35 SB_INVERT_UW     Finished
+01-Mar-2022 17:10:34 SB_INVERT_UW     Starting
+01-Mar-2022 17:10:39 SB_INVERT_UW     Finished
+01-Mar-2022 17:11:55 SB_INVERT_UW     Starting
+01-Mar-2022 17:12:00 SB_INVERT_UW     Finished
+01-Mar-2022 17:13:31 SB_INVERT_UW     Starting
+01-Mar-2022 17:13:36 SB_INVERT_UW     Finished
+01-Mar-2022 17:15:26 SB_INVERT_UW     Starting
+01-Mar-2022 17:15:32 SB_INVERT_UW     Finished
+01-Mar-2022 17:16:37 SB_INVERT_UW     Starting
+01-Mar-2022 17:16:41 SB_INVERT_UW     Finished
+01-Mar-2022 17:23:43 SB_INVERT_UW     Starting
+01-Mar-2022 17:23:49 SB_INVERT_UW     Finished
+01-Mar-2022 17:25:40 SB_INVERT_UW     Starting
+01-Mar-2022 17:25:46 SB_INVERT_UW     Finished
+01-Mar-2022 17:27:55 SB_INVERT_UW     Starting
+01-Mar-2022 17:28:01 SB_INVERT_UW     Finished
+01-Mar-2022 17:29:21 SB_INVERT_UW     Starting
+01-Mar-2022 17:29:27 SB_INVERT_UW     Finished
+01-Mar-2022 17:31:11 SB_INVERT_UW     Starting
+01-Mar-2022 17:31:17 SB_INVERT_UW     Finished
+01-Mar-2022 17:33:23 SB_INVERT_UW     Starting
+01-Mar-2022 17:33:28 SB_INVERT_UW     Finished
+01-Mar-2022 17:35:36 SB_INVERT_UW     Starting
+01-Mar-2022 17:35:42 SB_INVERT_UW     Finished
+01-Mar-2022 17:39:32 SB_INVERT_UW     Starting
+01-Mar-2022 17:39:37 SB_INVERT_UW     Finished
+01-Mar-2022 17:41:23 SB_INVERT_UW     Starting
+01-Mar-2022 17:41:28 SB_INVERT_UW     Finished
+01-Mar-2022 17:41:45 SB_INVERT_UW     Starting
+01-Mar-2022 17:41:50 SB_INVERT_UW     Finished
+01-Mar-2022 17:43:38 SB_INVERT_UW     Starting
+01-Mar-2022 17:43:44 SB_INVERT_UW     Finished
+01-Mar-2022 17:45:29 SB_INVERT_UW     Starting
+01-Mar-2022 17:45:36 SB_INVERT_UW     Finished
+01-Mar-2022 17:45:59 SB_INVERT_UW     Starting
+01-Mar-2022 17:46:04 SB_INVERT_UW     Finished
+01-Mar-2022 17:47:32 SB_INVERT_UW     Starting
+01-Mar-2022 17:47:37 SB_INVERT_UW     Finished
+01-Mar-2022 17:49:03 SB_INVERT_UW     Starting
+01-Mar-2022 17:49:08 SB_INVERT_UW     Finished
+01-Mar-2022 17:51:46 SB_INVERT_UW     Starting
+01-Mar-2022 17:51:52 SB_INVERT_UW     Finished
+01-Mar-2022 17:53:15 SB_INVERT_UW     Starting
+01-Mar-2022 17:53:21 SB_INVERT_UW     Finished
+01-Mar-2022 17:53:55 SB_INVERT_UW     Starting
+01-Mar-2022 17:54:00 SB_INVERT_UW     Finished
+01-Mar-2022 17:55:32 SB_INVERT_UW     Starting
+01-Mar-2022 17:55:37 SB_INVERT_UW     Finished
+01-Mar-2022 17:57:05 SB_INVERT_UW     Starting
+01-Mar-2022 17:57:10 SB_INVERT_UW     Finished
+01-Mar-2022 17:58:58 SB_INVERT_UW     Starting
+01-Mar-2022 17:59:03 SB_INVERT_UW     Finished
+01-Mar-2022 18:00:04 SB_INVERT_UW     Starting
+01-Mar-2022 18:00:09 SB_INVERT_UW     Finished
+01-Mar-2022 18:01:40 SB_INVERT_UW     Starting
+01-Mar-2022 18:01:45 SB_INVERT_UW     Finished
+01-Mar-2022 18:02:47 SB_INVERT_UW     Starting
+01-Mar-2022 18:02:52 SB_INVERT_UW     Finished
+01-Mar-2022 18:03:56 SB_INVERT_UW     Starting
+01-Mar-2022 18:04:02 SB_INVERT_UW     Finished
+01-Mar-2022 18:04:54 SB_INVERT_UW     Starting
+01-Mar-2022 18:04:59 SB_INVERT_UW     Finished
+01-Mar-2022 18:07:03 SB_INVERT_UW     Starting
+01-Mar-2022 18:07:07 SB_INVERT_UW     Finished
+01-Mar-2022 18:08:20 SB_INVERT_UW     Starting
+01-Mar-2022 18:08:25 SB_INVERT_UW     Finished
+01-Mar-2022 18:09:36 SB_INVERT_UW     Starting
+01-Mar-2022 18:09:41 SB_INVERT_UW     Finished
+01-Mar-2022 18:10:47 SB_INVERT_UW     Starting
+01-Mar-2022 18:10:52 SB_INVERT_UW     Finished
+01-Mar-2022 18:11:54 SB_INVERT_UW     Starting
+01-Mar-2022 18:11:59 SB_INVERT_UW     Finished
+01-Mar-2022 18:12:26 SB_INVERT_UW     Starting
+01-Mar-2022 18:12:31 SB_INVERT_UW     Finished
+01-Mar-2022 18:12:52 SETPARM          plot_scatterer_size = 1
+01-Mar-2022 18:13:54 SB_INVERT_UW     Starting
+01-Mar-2022 18:14:01 SB_INVERT_UW     Finished
+01-Mar-2022 18:15:09 SETPARM          plot_scatterer_size = 5
+01-Mar-2022 18:16:06 SB_INVERT_UW     Starting
+01-Mar-2022 18:16:11 SB_INVERT_UW     Finished
+01-Mar-2022 18:17:24 SB_INVERT_UW     Starting
+01-Mar-2022 18:17:29 SB_INVERT_UW     Finished
+01-Mar-2022 18:19:03 SB_INVERT_UW     Starting
+01-Mar-2022 18:19:08 SB_INVERT_UW     Finished
+01-Mar-2022 18:20:51 SB_INVERT_UW     Starting
+01-Mar-2022 18:20:55 SB_INVERT_UW     Finished
+01-Mar-2022 18:22:39 SB_INVERT_UW     Starting
+01-Mar-2022 18:22:44 SB_INVERT_UW     Finished
+01-Mar-2022 18:23:54 SB_INVERT_UW     Starting
+01-Mar-2022 18:24:01 SB_INVERT_UW     Finished
+01-Mar-2022 18:25:22 SB_INVERT_UW     Starting
+01-Mar-2022 18:25:31 SB_INVERT_UW     Finished
+01-Mar-2022 18:27:10 SB_INVERT_UW     Starting
+01-Mar-2022 18:27:17 SB_INVERT_UW     Finished
+01-Mar-2022 18:28:14 SETPARM          plot_scatterer_size = 1
+01-Mar-2022 18:29:22 SB_INVERT_UW     Starting
+01-Mar-2022 18:29:28 SB_INVERT_UW     Finished
+01-Mar-2022 18:30:21 SETPARM          plot_scatterer_size = 5
+01-Mar-2022 18:31:10 SB_INVERT_UW     Starting
+01-Mar-2022 18:31:15 SB_INVERT_UW     Finished
+01-Mar-2022 18:31:35 SB_INVERT_UW     Starting
+01-Mar-2022 18:31:40 SB_INVERT_UW     Finished
+01-Mar-2022 18:32:50 STAMPS           ########################################
+01-Mar-2022 18:32:50 STAMPS           ####### StaMPS/MTI Version 4.0b6 #######
+01-Mar-2022 18:32:50 STAMPS           #######  Beta version, Jun 2018  #######
+01-Mar-2022 18:32:50 STAMPS           ########################################
+01-Mar-2022 18:32:50 STAMPS           Will process current directory only
+01-Mar-2022 18:32:50 STAMPS           ########################################
+01-Mar-2022 18:32:50 STAMPS           ################ Step 7 ################
+01-Mar-2022 18:32:50 STAMPS           ########################################
+01-Mar-2022 18:32:50 STAMPS           Directory is dsc_20171012
+01-Mar-2022 18:32:51 PS_CALC_SCLA     Starting
+01-Mar-2022 18:32:51 GETPARM          small_baseline_flag='y'
+01-Mar-2022 18:32:51 GETPARM          drop_ifg_index= 
+01-Mar-2022 18:32:51 GETPARM          scla_method='L2'
+01-Mar-2022 18:32:51 GETPARM          scla_deramp='n'
+01-Mar-2022 18:32:51 GETPARM          subtr_tropo='n'
+01-Mar-2022 18:32:51 GETPARM          tropo_method='a_l'
+01-Mar-2022 18:32:51 GETPARM          sb_scla_drop_index= 
+01-Mar-2022 18:32:52 PS_CALC_SCLA     31 ifgs used in estimation:
+01-Mar-2022 18:32:52 PS_CALC_SCLA        03-Apr-2017 to 11-Apr-2017     8 days  -259 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        03-Apr-2017 to 13-May-2017    40 days  -144 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        03-Apr-2017 to 29-May-2017    56 days   123 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        13-May-2017 to 29-May-2017    16 days   267 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        29-May-2017 to 04-Jul-2017    36 days   123 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        29-May-2017 to 01-Aug-2017    64 days   133 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        04-Jul-2017 to 01-Aug-2017    28 days    10 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        04-Jul-2017 to 25-Aug-2017    52 days  -205 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        04-Jul-2017 to 06-Sep-2017    64 days    97 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        04-Jul-2017 to 12-Oct-2017   100 days    61 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        04-Jul-2017 to 20-Oct-2017   108 days  -170 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        04-Jul-2017 to 24-Oct-2017   112 days    32 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        01-Aug-2017 to 25-Aug-2017    24 days  -215 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        01-Aug-2017 to 06-Sep-2017    36 days    87 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        01-Aug-2017 to 12-Oct-2017    72 days    52 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        01-Aug-2017 to 20-Oct-2017    80 days  -179 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        01-Aug-2017 to 24-Oct-2017    84 days    22 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        09-Aug-2017 to 25-Aug-2017    16 days    58 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        09-Aug-2017 to 20-Oct-2017    72 days    94 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        09-Aug-2017 to 09-Nov-2017    92 days  -113 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        25-Aug-2017 to 20-Oct-2017    56 days    36 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        25-Aug-2017 to 09-Nov-2017    76 days  -171 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        02-Sep-2017 to 10-Sep-2017     8 days   -14 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        02-Sep-2017 to 12-Oct-2017    40 days  -214 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        02-Sep-2017 to 21-Nov-2017    80 days   184 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        06-Sep-2017 to 12-Oct-2017    36 days   -35 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        06-Sep-2017 to 24-Oct-2017    48 days   -65 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        10-Sep-2017 to 12-Oct-2017    32 days  -200 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        10-Sep-2017 to 21-Nov-2017    72 days   198 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        12-Oct-2017 to 24-Oct-2017    12 days   -30 m
+01-Mar-2022 18:32:52 PS_CALC_SCLA        20-Oct-2017 to 09-Nov-2017    20 days  -207 m
+01-Mar-2022 18:32:54 PS_CALC_SCLA     Finished
+01-Mar-2022 18:32:54 PS_SMOOTH_SCLA   Starting
+01-Mar-2022 18:32:54 PS_SMOOTH_SCLA   Number of points per ifg: 282950
+01-Mar-2022 18:32:58 PS_SMOOTH_SCLA   Number of arcs per ifg=848822
+01-Mar-2022 18:33:29 PS_SMOOTH_SCLA   Finished
+01-Mar-2022 18:33:29 PS_CALC_SCLA     Starting
+01-Mar-2022 18:33:29 GETPARM          small_baseline_flag='y'
+01-Mar-2022 18:33:29 GETPARM          drop_ifg_index= 
+01-Mar-2022 18:33:29 GETPARM          scla_method='L2'
+01-Mar-2022 18:33:29 GETPARM          scla_deramp='n'
+01-Mar-2022 18:33:29 GETPARM          subtr_tropo='n'
+01-Mar-2022 18:33:29 GETPARM          tropo_method='a_l'
+01-Mar-2022 18:33:29 GETPARM          scla_drop_index= 
+01-Mar-2022 18:33:31 PS_CALC_SCLA     14 ifgs used in estimation:
+01-Mar-2022 18:33:31 PS_CALC_SCLA        03-Apr-2017 to 11-Apr-2017     8 days  -259 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        11-Apr-2017 to 13-May-2017    32 days   115 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        13-May-2017 to 29-May-2017    16 days   267 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        29-May-2017 to 04-Jul-2017    36 days   123 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        04-Jul-2017 to 01-Aug-2017    28 days    10 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        01-Aug-2017 to 09-Aug-2017     8 days  -273 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        09-Aug-2017 to 25-Aug-2017    16 days    58 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        25-Aug-2017 to 02-Sep-2017     8 days   481 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        02-Sep-2017 to 06-Sep-2017     4 days  -179 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        06-Sep-2017 to 10-Sep-2017     4 days   165 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        10-Sep-2017 to 20-Oct-2017    40 days  -431 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        20-Oct-2017 to 24-Oct-2017     4 days   201 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        24-Oct-2017 to 09-Nov-2017    16 days  -408 m
+01-Mar-2022 18:33:31 PS_CALC_SCLA        09-Nov-2017 to 21-Nov-2017    12 days   836 m
+01-Mar-2022 18:33:32 PS_CALC_SCLA     Finished
+01-Mar-2022 18:33:32 STAMPS           Finished
