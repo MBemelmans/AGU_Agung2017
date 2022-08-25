@@ -39,3 +39,14 @@ INSAR_input/S1_asc_full_ts/S1_asc_full_12-Oct-2017.mat filter=lfs diff=lfs merge
 INSAR_input/S1_asc_full_ts/S1_asc_full_13-Aug-2017.mat filter=lfs diff=lfs merge=lfs -text
 INSAR_input/S1_asc_full_ts/S1_asc_full_18-Sep-2017.mat filter=lfs diff=lfs merge=lfs -text
 INSAR_input/S1_dsc_full_ts/S1_dsc_full_08-Nov-2017.mat filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_S1_asc_sub.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_S1_asc_sub_points_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_CSK_asc_sub.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_CSK_asc_sub_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_CSK_dsc_sub_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_CSK_asc_sub_points_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_S1_dsc_sub_points_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_S1_dsc_sub.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_S1_dsc_sub_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_CSK_dsc_sub_points_mask.shp filter=lfs diff=lfs merge=lfs -text
+subsampling/disp_S1_asc_sub_mask.shp filter=lfs diff=lfs merge=lfs -text
